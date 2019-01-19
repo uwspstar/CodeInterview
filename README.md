@@ -1,3 +1,3 @@
 # CodeInterview
 
-[code practice](https://repl.it/@uwspstar)
+[code practice](https://repl.it/@uwspstar/ScalyInferiorCoordinates)
