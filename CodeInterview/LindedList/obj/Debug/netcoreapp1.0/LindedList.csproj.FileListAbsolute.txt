@@ -1,9 +1,0 @@
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\bin\Debug\netcoreapp1.0\LindedList.deps.json
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\bin\Debug\netcoreapp1.0\LindedList.runtimeconfig.json
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\bin\Debug\netcoreapp1.0\LindedList.runtimeconfig.dev.json
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\bin\Debug\netcoreapp1.0\LindedList.dll
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\bin\Debug\netcoreapp1.0\LindedList.pdb
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\obj\Debug\netcoreapp1.0\LindedList.csprojResolveAssemblyReference.cache
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\obj\Debug\netcoreapp1.0\LindedList.AssemblyInfo.cs
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\obj\Debug\netcoreapp1.0\LindedList.dll
-C:\CodeInterview\CodeInterview\CodeInterview\LindedList\obj\Debug\netcoreapp1.0\LindedList.pdb
