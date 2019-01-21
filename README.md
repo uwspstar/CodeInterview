@@ -1,5 +1,5 @@
 # Javascript
 
-[code practice](https://repl.it/@uwspstar/ScalyInferiorCoordinates)
+[code practice](https://repl.it/@uwspstar)
 
 [bigocheatsheet](http://bigocheatsheet.com)
