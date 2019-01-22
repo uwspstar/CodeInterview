@@ -79,10 +79,47 @@ class LinkedList {
     this.head = node; // head reasign to node value, the tail did not change
     this.length++;
   }
+  printList(){
+    const arr=[];
+    let currentNode = this.head
+    while(currentNode!==null){ 
+      // not currentNode.next !==null 
+      // it will miss the last node 
+      arr.push(currentNode.value);
+      currentNode = currentNode.next;
+    }
+
+    console.log(arr);
+  }
+
+  insert(index, value){
+    const node = {
+      value: value,
+      next :null
+    } 
+
+    let leadNode = this.findLeadNode(index-1); 
+     
+    node.next = leadNode.next;
+    leadNode.next = node; 
+  }
+
+  findLeadNode(index){
+    let count = 0;
+        let currentNode = this.head;
+        while(count!==(index)) { 
+            currentNode = currentNode.next;
+            count++;
+        } 
+    return currentNode;
+  }
 }
 
 let myLinkedList = new LinkedList(10);
 myLinkedList.append(5);
 myLinkedList.append(16);
 myLinkedList.prepend(1);
+myLinkedList.insert(3,99);
+myLinkedList.printList();
 console.log(myLinkedList); 
+
