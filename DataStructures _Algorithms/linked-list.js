@@ -102,6 +102,7 @@ class LinkedList {
      
     node.next = leadNode.next;
     leadNode.next = node; 
+    this.length++;
   }
 
   findLeadNode(index){
@@ -122,6 +123,7 @@ class LinkedList {
     console.log(nextNotd); 
 
     leadNode.next= nextNotd; 
+    this.length--;
 
   }
 }
@@ -134,5 +136,4 @@ myLinkedList.insert(3,99);
 myLinkedList.printList(); //[ 1, 10, 5, 99, 16 ]
 myLinkedList.remove(2); //{ value: 10,  next: { value: 5, next: { value: 99, next: [Object] } } }
 myLinkedList.printList(); //[ 1, 10, 5, 99, 16 ]
-//console.log(myLinkedList); 
-
+ 
