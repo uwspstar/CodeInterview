@@ -115,6 +115,7 @@ class LinkedList {
     return currentNode;
   }
 
+  /*
   remove(index){
     let leadNode = this.findLeadNode(index-1);
     let nextNotd = this.findLeadNode(index+1);
@@ -123,6 +124,17 @@ class LinkedList {
     console.log(nextNotd); 
 
     leadNode.next= nextNotd; 
+    this.length--;
+
+  }*/
+  remove(index){
+    let leadNode = this.findLeadNode(index-1); //O(n)
+    //let nextNotd = this.findLeadNode(index+1);// Do not use it. it another O(n) 
+    console.log(leadNode);
+    console.log(leadNode.next);  
+    console.log(leadNode.next.next);
+    
+    leadNode.next= leadNode.next.next;  
     this.length--;
 
   }
