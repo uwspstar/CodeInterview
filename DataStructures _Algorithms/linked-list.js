@@ -113,13 +113,26 @@ class LinkedList {
         } 
     return currentNode;
   }
+
+  remove(index){
+    let leadNode = this.findLeadNode(index-1);
+    let nextNotd = this.findLeadNode(index+1);
+
+    console.log(leadNode);
+    console.log(nextNotd); 
+
+    leadNode.next= nextNotd; 
+
+  }
 }
 
 let myLinkedList = new LinkedList(10);
 myLinkedList.append(5);
 myLinkedList.append(16);
-myLinkedList.prepend(1);
+myLinkedList.prepend(1); 
 myLinkedList.insert(3,99);
-myLinkedList.printList();
-console.log(myLinkedList); 
+myLinkedList.printList(); //[ 1, 10, 5, 99, 16 ]
+myLinkedList.remove(2); //{ value: 10,  next: { value: 5, next: { value: 99, next: [Object] } } }
+myLinkedList.printList(); //[ 1, 10, 5, 99, 16 ]
+//console.log(myLinkedList); 
 
