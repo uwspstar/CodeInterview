@@ -1,6 +1,4 @@
 //Doubly Linked Lists
-
-//Doubly Linked Lists
 class DoublyLinkedList {
   constructor(value) {
     this.head = {
@@ -36,7 +34,7 @@ class DoublyLinkedList {
     this.head = node; //very important
     this.length++;
 
-    this.printList();
+    //this.printList();
   }
 
   printList(){
@@ -81,20 +79,42 @@ class DoublyLinkedList {
     leadNode.after.after.before = leadNode;
     this.length--;
 
+  } 
+
+  reverse(){ 
+    //[ 1, 10, 5, 16 ] 
+    let first = this.head;  //[1] 
+    let second = first.after; //[10] 
+    this.tail = this.head; //[1]
+    
+    while(second)
+    {  
+      const third = second.after;//[5] 
+      second.after = first; 
+      first = second; //????
+      second = third;
+    }  
+
+    this.head.after = null;
+    this.head = first;
+
+    return this.printList();
   }
 }
 
 let myLinkedList = new DoublyLinkedList(10);
-myLinkedList.printList(); //[ 10 ]
+//myLinkedList.printList(); //[ 10 ]
 myLinkedList.append(5); //[ 10, 5 ]
-myLinkedList.printList(); 
+//myLinkedList.printList(); 
 myLinkedList.append(16); //[ 10, 5, 16 ]
-myLinkedList.printList();
+//myLinkedList.printList();
 myLinkedList.prepend(1); //[ 1, 10, 5, 16 ]
-myLinkedList.printList();
-myLinkedList.insert(3,99);//[ 1, 10, 5, 99, 16 ]
+//myLinkedList.printList();
+//myLinkedList.insert(3,99);//[ 1, 10, 5, 99, 16 ]
+//myLinkedList.printList(); 
+//myLinkedList.remove(2);//[ 1, 10, 5, 16 ]
+//myLinkedList.printList(); 
+myLinkedList.reverse();
 myLinkedList.printList(); 
-myLinkedList.remove(2);//[ 1, 10, 5, 99, 16 ]
-myLinkedList.printList(); 
-//console.log(myLinkedList); 
+////console.log(myLinkedList); 
 
