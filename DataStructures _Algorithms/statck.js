@@ -27,7 +27,7 @@ class Stack {
     if( this.top === this.bottom){
       this.bottom = null;
     }
-    
+
     const holdNode = this.top; 
     this.top = holdNode.next; 
     this.length --;
@@ -72,6 +72,25 @@ console.log(myStack);
 myStack.pop();
 console.log(myStack);
 
+/*
+//We can use Array to build Stack
+
+class Stack {
+
+  constructor(){
+    this.array =[];
+  }
+  pop(){
+    this.array.pop();
+  }
+  push(value){
+    this.array.push(value);
+  }
+  peek(){
+    return this.array[length-1;
+  }
+}
+*/
 
 //Queue   FIFO
 //Array
