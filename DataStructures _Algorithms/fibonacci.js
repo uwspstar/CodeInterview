@@ -12,14 +12,27 @@
 //[0],[1],[2],[3],[4],[5],[6]
 //For example: fibonacciRecursive(6) should return 8
 
+
+function fibonacciIterative(n){ 
+   
+   let arr = [0,1];
+   for (let i = 2 ; i<n+1; i++){
+     //console.log(arr[i]);
+     arr.push(arr[i-1]+arr[i-2]);
+   }
+    
+   return arr[n];  
+} 
 /*
 function fibonacciIterative(n){
-  //code here;
-
-
+  let arr = [0, 1];
+  for (let i = 2; i < n + 1; i++){
+    arr.push(arr[i - 2] + arr[i -1]);
+  }
+ return arr[n];
 }
-fibonacciIterative(3);
 */
+console.log(fibonacciIterative(8)); 
 
 //my solution
 function fibonacciRecursive(n) { 
@@ -30,4 +43,4 @@ function fibonacciRecursive(n) {
   return fibonacciRecursive(n-1) + fibonacciRecursive(n-2); 
 }
 
-console.log(fibonacciRecursive(7));
+console.log(fibonacciRecursive(7)); //->13
