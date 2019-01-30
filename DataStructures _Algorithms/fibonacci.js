@@ -13,7 +13,7 @@
 //For example: fibonacciRecursive(6) should return 8
 
 
-function fibonacciIterative(n){ 
+function fibonacciIterative(n){ //O(n)
    
    let arr = [0,1];
    for (let i = 2 ; i<n+1; i++){
@@ -35,7 +35,7 @@ function fibonacciIterative(n){
 console.log(fibonacciIterative(8)); 
 
 //my solution
-function fibonacciRecursive(n) { 
+function fibonacciRecursive(n) { //O(2^n)
 
   if(n===0) return 0;
   if(n===1) return 1;  
