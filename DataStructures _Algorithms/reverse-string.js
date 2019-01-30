@@ -1,6 +1,5 @@
 //Implement a function that reverses a string using iteration...and then recursion!
 //my solution
-//my solution
 var reverseStringRecursion = function (str) { 
  
   let len = str.length;
@@ -11,8 +10,7 @@ var reverseStringRecursion = function (str) {
 
   return str[len-1] + reverseStringRecursion(str.substring(0, len - 1)) ;
 
-}
-
+} 
 
 console.log(reverseStringRecursion('master'));
 
