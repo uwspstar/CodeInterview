@@ -10,3 +10,4 @@
 
 [visualgo](https://visualgo.net/en)
  
+[Heapsort](https://brilliant.org/wiki/heap-sort/)
