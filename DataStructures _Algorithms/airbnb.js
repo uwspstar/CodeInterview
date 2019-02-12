@@ -1,5 +1,5 @@
-//1. reverse string
-//2. find missing string : check overflow
+// 1. reverse string
+// 2. find missing string : check overflow
 
 var findMissingStr = function(arr1, arr2){
   
