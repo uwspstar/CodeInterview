@@ -9,10 +9,10 @@ function selectionSort(array) {
 
   const len = array.length;
 
-  while( current < len){   
+  while( current < len){//O(n)   
 
     //[99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
-    for(let i = current; i<len; i++) {   //O(n)
+    for(let i = current; i<len; i++) {   //O(n^2) -> n+ (n-1) + (n-2) +...+ 1 = (n+1)(n/2) =>O(n^2) + O(n) -> O(n) 
 
         if(array[current] > array[i]) { 
 
