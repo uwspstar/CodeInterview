@@ -27,3 +27,5 @@
 
 [ECMAScript® Language Specification](https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3)
 
+[submarine cable map](https://www.submarinecablemap.com/)
+
