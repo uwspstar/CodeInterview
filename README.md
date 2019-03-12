@@ -23,3 +23,5 @@
 
 [event loop](http://latentflip.com/loupe)
 
+[JavaScript-Equality-Table](https://dorey.github.io/JavaScript-Equality-Table/)
+
