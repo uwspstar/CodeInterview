@@ -1,6 +1,7 @@
 
 # Javascript
 
+### Tool
 [code practice](https://repl.it/@uwspstar)
 
 [diagram](https://coggle.it/)
@@ -29,7 +30,7 @@
 
 [submarine cable map](https://www.submarinecablemap.com/)
 
-# Basic
+### Basic
 - Lexical Structure
 - Expressions
 - Types
