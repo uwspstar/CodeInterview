@@ -29,3 +29,17 @@
 
 [submarine cable map](https://www.submarinecablemap.com/)
 
+# Basic
+- Lexical Structure
+- Expressions
+- Types
+- Variables
+- Functions
+- this
+- Arrow Functions
+- Loops and Scope
+- Arrays
+- Object
+- Template Literals
+- Strict Mode
+- ECMAScript 6, 2016, 2017
