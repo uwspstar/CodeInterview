@@ -14,6 +14,10 @@
  
 [Heapsort](https://brilliant.org/wiki/heap-sort)
 
+[Roadmap to Learn JavaScript](https://flaviocopes.com/javascript/)
+
+[ECMAScript® Language Specification](https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3)
+
 [Radix Sort](https://brilliant.org/wiki/radix-sort)
 
 [Radix Sort Animation](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html)
@@ -26,9 +30,7 @@
 
 [JavaScript-Equality-Table](https://dorey.github.io/JavaScript-Equality-Table/)
 
-[ECMAScript® Language Specification](https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3)
-
-[submarine cable map](https://www.submarinecablemap.com/)
+[submarine cable map](https://www.submarinecablemap.com/) 
 
 ### Basic
 - Lexical Structure
