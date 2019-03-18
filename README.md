@@ -44,3 +44,9 @@
 - Template Literals
 - Strict Mode
 - ECMAScript 6, 2016, 2017
+- Asynchronous programming and callbacks
+- Timers
+- Promises
+- Async and Await
+- Closures
+- The Event Loop
