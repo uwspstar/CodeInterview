@@ -1,6 +1,10 @@
 
 # Javascript
 
+# Code snippets
+![Code snippets](/fulls1.PNG)
+- [Code snippets](https://repl.it/@uwspstar/fullstack)
+
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
 - [diagram](https://coggle.it/)
