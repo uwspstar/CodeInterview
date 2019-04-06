@@ -2,8 +2,9 @@
 # Javascript
 
 # Code snippets
-![Code snippets](/full1.PNG)
 - [Code snippets](https://repl.it/@uwspstar/fullstack)
+![Code snippets](/full1.PNG)
+
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
