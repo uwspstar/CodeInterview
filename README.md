@@ -2,7 +2,7 @@
 # Javascript
 
 # Code snippets
-![Code snippets](/fulls1.PNG)
+![Code snippets](/full1.PNG)
 - [Code snippets](https://repl.it/@uwspstar/fullstack)
 
 ### Tool
