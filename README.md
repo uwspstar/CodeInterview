@@ -5,6 +5,9 @@
 - [Code snippets](https://repl.it/@uwspstar/fullstack)
 ![Code snippets](/full1.PNG)
 
+# BigO
+- [BigO]()
+![BigO](/bigo.PNG)
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
