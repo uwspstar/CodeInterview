@@ -8,6 +8,7 @@
 # BigO
 - [BigO]()
 ![BigO](/bigo.PNG)
+![BigO](/bigo2.PNG)
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
