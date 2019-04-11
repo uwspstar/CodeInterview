@@ -35,6 +35,9 @@
 - Types
 - Variables
 - Functions
+	- IIFE
+	- Array
+	- String
 - this
 - Arrow Functions
 - Loops and Scope
