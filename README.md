@@ -96,3 +96,27 @@ var firstname = 'Jane';
 ```
 
 console.log(firstname);
+
+### JSON
+```
+// a JavaScript object...:
+var myObj = { "name":"John", "age":31, "city":"New York" };
+
+// ...converted into JSON:
+var myJSON = JSON.stringify(myObj);
+
+// myJSON is text received in JSON format.
+// Convert JSON into a JavaScript object:
+var myObj = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.name;
+
+// Storing data:
+myObj = { "name":"John", "age":31, "city":"New York" };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+// Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+```
