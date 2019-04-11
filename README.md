@@ -7,10 +7,10 @@
 
 ### BigO
 - [BigO]()
-![BigO](/bigo.PNG)
-![BigO](/bigo2.PNG)
-
-![Queue](/que.JPG)
+	- [BigO 1](/bigo.PNG)
+	- [BigO 2](/bigo2.PNG)
+- [Queue]()
+	- [Queue](/que.JPG)
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
