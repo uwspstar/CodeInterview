@@ -10,7 +10,7 @@
 ![BigO](/bigo.PNG)
 ![BigO](/bigo2.PNG)
 
-![Queue](/que.PNG)
+![Queue](/que.JPG)
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
