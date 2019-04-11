@@ -36,7 +36,7 @@
 - Variables
 - Functions
 	- IIFE
-	- Array [https://www.w3schools.com/jsref/jsref_obj_array.asp](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+	- [Array](https://github.com/uwspstar/Javascript-DataStructures-Algorithms-ES6/blob/master/array.jpg)
 	- String
 - this
 - Arrow Functions
