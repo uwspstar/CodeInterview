@@ -1,14 +1,16 @@
 
 # Javascript
 
-# Code snippets
+### Code snippets
 - [Code snippets](https://repl.it/@uwspstar/fullstack)
 ![Code snippets](/full1.PNG)
 
-# BigO
+### BigO
 - [BigO]()
 ![BigO](/bigo.PNG)
 ![BigO](/bigo2.PNG)
+
+![Queue](/que.PNG)
 
 ### Tool
 - [code practice](https://repl.it/@uwspstar)
