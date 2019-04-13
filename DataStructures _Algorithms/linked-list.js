@@ -1,3 +1,20 @@
+/* search a number*/
+```
+if empty, return NOT_FOUND
+
+index = 0, temp = head
+
+while (temp.item != v)
+
+  index++, temp = temp.next
+
+  if temp == null
+
+    return NOT_FOUND
+
+return index
+```
+
 //node : (value, point to next node)
 //head : (value, point to next node) 
 //tail : (value, point to NULL)
