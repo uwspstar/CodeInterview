@@ -6,6 +6,8 @@
 - [Code snippets](https://repl.it/@uwspstar/fullstack)
 ![Code snippets](/full1.PNG)
 
+### Js Array Methods
+- Js Array Methods (https://www.w3schools.com/js/js_array_methods.asp)
 ### BigO
 - [BigO]()
 	- [BigO 1](/bigo.PNG)
