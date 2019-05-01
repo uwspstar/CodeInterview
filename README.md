@@ -130,7 +130,7 @@ document.getElementById("demo").innerHTML = obj.name;
 ```
 
 ### Quick Reference
-```
+ 
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
  
@@ -142,53 +142,54 @@ document.getElementById("demo").innerHTML = fruits.join(" * ");
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-fruits.pop(); // Removes the last element ("Mango") from fruits
+- fruits.pop(); // Removes the last element ("Mango") from fruits
 
-fruits.shift();// Removes the first element "Banana" from fruits 
+- fruits.shift();// Removes the first element "Banana" from fruits 
 
-fruits.push("Kiwi");//  Adds a new element ("Kiwi") to fruits
+- fruits.push("Kiwi");//  Adds a new element ("Kiwi") to fruits
 
-fruits.unshift("Lemon");// Adds a new element "Lemon" to fruits 
+- fruits.unshift("Lemon");// Adds a new element "Lemon" to fruits 
 
-fruits[0] = "Kiwi";        // Changes the first element of fruits to "Kiwi" 
+- fruits[0] = "Kiwi";        // Changes the first element of fruits to "Kiwi" 
 
-fruits[fruits.length] = "Kiwi";          // Appends "Kiwi" to fruits 
+- fruits[fruits.length] = "Kiwi";          // Appends "Kiwi" to fruits 
 
-delete fruits[0]; 
+- delete fruits[0]; 
 //Changes the first element in fruits to undefined 
 //Using delete may leave undefined holes in the array. Use pop() or shift() instead.
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(2, 0, "Lemon", "Kiwi");
+
+- fruits.splice(2, 0, "Lemon", "Kiwi");
 //The first parameter (2) defines the position where new elements should be added (spliced in).
 //The second parameter (0) defines how many elements should be removed.
 //The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
 //The splice() method returns an array with the deleted items:
 
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-var citrus = fruits.slice(1);
 
+- var citrus = fruits.slice(1);
 //The slice() method creates a new array. It does not remove any elements from the source array.
 //This example slices out a part of an array starting from array element 3 ("Apple"): 
 
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-var citrus = fruits.slice(1, 3);
+- var citrus = fruits.slice(1, 3);
 
 //The slice() method can take two arguments like slice(1, 3).
 //The method then selects elements from the start argument, and up to (but not including) the end argument.
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(0, 1);        // Removes the first element of fruits 
+- fruits.splice(0, 1);        // Removes the first element of fruits 
 
 //The first parameter (0) defines the position where new elements should be added (spliced in).
 //The second parameter (1) defines how many elements should be removed.
 //The rest of the parameters are omitted. No new elements will be added.
 
-var myChildren = arr1.concat(arr2, arr3);   // Concatenates arr1 with arr2 and arr3 
+- var myChildren = arr1.concat(arr2, arr3);   // Concatenates arr1 with arr2 and arr3 
 //The concat() method does not change the existing arrays. It always returns a new array.
 
 
-Numeric Sort
+- Numeric Sort
 //By default, the sort() function sorts values as strings.
 //This works well for strings ("Apple" comes before "Banana").
 //However, if numbers are sorted as strings, "25" is bigger than "100", because "2" is bigger than "1".
@@ -199,4 +200,4 @@ points.sort(function(a, b){return a - b});
 var points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return b - a});
 
-```
+ 
