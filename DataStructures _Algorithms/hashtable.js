@@ -10,19 +10,7 @@ It uses a hash function to map large or even non-Integer keys into a small range
 
 The probability of two distinct keys colliding into the same index is relatively high and each of this potential collision needs to be resolved to maintain data integrity.
 
-There are several collision resolution strategies that will be highlighted in this visualization: 
-Open Addressing (Linear Probing, Quadratic Probing, and Double Hashing) and Closed Addressing (Separate Chaining). 
-Try clicking Search(8) for a sample animation of searching a value in a Hash Table using Separate Chaining technique.
-
-Click 'Next' (on the top right)/press 'Page Down' to advance this e-Lecture slide, 
-use the drop down list/press 'Space' to jump to a specific slide, or Click 'X' (on the bottom right)/press 'Esc' to go to Exploration mode.
-
 */
-
-
-
-
-
 
 
 //find letter repeat times
