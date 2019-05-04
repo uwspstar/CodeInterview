@@ -9,5 +9,10 @@ https://leetcode.com/
     - Dynamic Programming
     - Greedy Algorithms
     - Backtracking
- 
+    
+##  hashmap{}
+let hashmap = {}; 
+for(let val of arr1){
+   hashmap[val] = (hashmap[val] || 0) + 1;
+}
 
