@@ -1,22 +1,3 @@
-
-var removeDuplicates = function(nums) {
-    
-    let x = 2;
-    for (let i = 2; i<nums.length; i++){  
-      if (nums[i] > nums[x-2]){ 
-        nums[x++] = nums[i]; 
-        //x++
-      }   
-    } 
-    return x;
-};
-let nums = [0,0,1,1,1,1,2,3,3];//7
-console.log(removeDuplicates(nums));
-let nums2 = [1,1,1,2,2,3];//5
-console.log(removeDuplicates(nums2));
-let nums3 = [1,2,2,2,2,3];//4
-console.log(removeDuplicates(nums3));
-
 /*
 80.Remove Duplicates from Sorted Array II
  
@@ -40,3 +21,21 @@ Given nums = [0,0,1,1,1,1,2,3,3],
 Your function should return length = 7, with the first seven elements of nums being modified to 0, 0, 1, 1, 2, 3 and 3 respectively.
 
 */
+
+var removeDuplicates = function(nums) {
+    
+    let x = 2;
+    for (let i = 2; i<nums.length; i++){  
+      if (nums[i] > nums[x-2]){ 
+        nums[x++] = nums[i]; 
+        //x++
+      }   
+    } 
+    return x;
+};
+let nums = [0,0,1,1,1,1,2,3,3];//7
+console.log(removeDuplicates(nums));
+let nums2 = [1,1,1,2,2,3];//5
+console.log(removeDuplicates(nums2));
+let nums3 = [1,2,2,2,2,3];//4
+console.log(removeDuplicates(nums3));
