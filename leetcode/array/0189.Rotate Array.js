@@ -30,7 +30,15 @@ Could you do it in-place with O(1) extra space?
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 
-// solution 1
+console.log(rotate([-1,-100,3,99],2));//[3,99,-1,-100]
+console.log(rotate([1,2,3,4,5,6,7],3));//[ 5, 6, 7, 1, 2, 3, 4 ]
+function rotate(nums,k) {
+   nums.unshift(...nums.splice(nums.length-k));
+   return nums;
+}
+
+
+/* solution 1
 var rotate = function(nums, k) {
     //nums.unshift(...nums.splice(nums.length-k));
     const len = nums.length;  
@@ -43,7 +51,7 @@ var rotate = function(nums, k) {
 console.log(rotate([-1,-100,3,99],2));//[3,99,-1,-100]
 console.log(rotate([1,2,3,4,5,6,7],3));//[ 5, 6, 7, 1, 2, 3, 4 ]
 
-/* solution 3
+ solution 3
 console.log(rotate([-1,-100,3,99],2));//[3,99,-1,-100]
 console.log(rotate([1,2,3,4,5,6,7],3));//[ 5, 6, 7, 1, 2, 3, 4 ]
 
