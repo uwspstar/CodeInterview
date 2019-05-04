@@ -1,18 +1,4 @@
-//https://leetcode.com/problems/remove-element/solution/
-//Given nums = [0,1,2,2,3,0,4,2], val = 2,
-var removeElement = function(nums, val) {
-    let len = 0;
-    for(let i =0; i<nums.length; i++){
-      if(nums[i]!=val){
-        len++;
-      }
-    }
 
-    return len;
-};
-let nums = [0,1,2,2,3,0,4,2];
-let val = 2
-console.log(removeElement(nums,val))
 /*
 27.Remove Element
 
@@ -55,3 +41,19 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 */
+
+//https://leetcode.com/problems/remove-element/solution/
+//Given nums = [0,1,2,2,3,0,4,2], val = 2,
+var removeElement = function(nums, val) {
+    let len = 0;
+    for(let i =0; i<nums.length; i++){
+      if(nums[i]!=val){
+        len++;
+      }
+    }
+
+    return len;
+};
+let nums = [0,1,2,2,3,0,4,2];
+let val = 2
+console.log(removeElement(nums,val))
