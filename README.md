@@ -44,7 +44,7 @@
 - Variables
 - Functions
 	- IIFE
-	- [Array](https://github.com/uwspstar/Javascript-DataStructures-Algorithms-ES6/blob/master/array.jpg)
+	- Array
 	- String
 - this
 - Arrow Functions
