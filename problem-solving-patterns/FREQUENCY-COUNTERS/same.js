@@ -75,7 +75,7 @@ const same2 = function(arr1, arr2){
   const key1s  = Object.keys(hashmap1);
   const key2s  = Object.keys(hashmap2);
  
-  //O(m)  and m<n
+  //O(m)  and m<=n
   for(let i = 0; i< key1s.length; i++){   
       if( key2s[i]!=(key1s[i]**2)  || hashmap1[key1s[i]] !=  hashmap2[key2s[i]]){
           return false;
