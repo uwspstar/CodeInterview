@@ -16,7 +16,7 @@ same([1,2,1], [4,4,1]) // false (must be same frequency)
 */
 
 
-- //O(n), use 3 loops instead of using a nest loop, use for...of (value) and for...in (key)
+//O(n), use 3 loops instead of using a nest loop, use for...of (value) and for...in (key)
 const same3 = function(arr1, arr2){
 
   if(arr1.length!=arr2.length)  return false;
