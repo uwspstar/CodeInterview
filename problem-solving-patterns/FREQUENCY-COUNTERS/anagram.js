@@ -46,30 +46,23 @@ console.log(validAnagram('texttwisttime', 'timetwisttext')) // true
 
 
 //if the space is main concern
-function validAnagram(first, second) {
-  if (first.length !== second.length) {
-    return false;
-  }
+function validAnagram(str1, str2) {
+  if (str1.length !== str2.length) return false; 
 
-  const lookup = {};
+  const hashmap = {};
 
-  for (let i = 0; i < first.length; i++) {
-    let letter = first[i];
-    // if letter exists, increment, otherwise set to 1
-    lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
-  }
-  console.log(lookup)
+  for (let val of str1.split('')) { 
+    hashmap[val] =  (hashmap[val] || 0 ) +1;
+  } 
+  //console.log(hashmap);
 
-  for (let i = 0; i < second.length; i++) {
-    let letter = second[i];
-    // can't find letter or letter is zero then it's not an anagram
-    if (!lookup[letter]) {
+  for (let val of str2.split('')) { 
+    if (!hashmap[val]) {
       return false;
     } else {
-      lookup[letter] -= 1;
+      hashmap[val]--;
     }
   }
 
   return true;
 }
-
