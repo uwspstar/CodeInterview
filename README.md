@@ -10,6 +10,11 @@
 *** Use const by default, unless a variable needs to be reassigned. 
 *** The var keyword must not be used.
 ```
+- 5.2.5 Spread operator
+```
+[...foo]   // preferred over Array.prototype.slice.call(foo)
+[...foo, ...bar]   // preferred over foo.concat(bar)
+```
 
 ### Style Checking 
 (https://jshint.com/)
