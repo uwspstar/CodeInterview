@@ -16,6 +16,20 @@
 [...foo, ...bar]   // preferred over foo.concat(bar)
 ```
 
+- 5.8.1 For loops
+```
+With ES6, the language now has three different kinds of for loops. 
+
+All may be used, though for-of loops should be preferred when possible.
+
+*** for-in loops may only be used on dict-style objects (see 5.3.3 Do not mix quoted and unquoted keys), 
+and should not be used to iterate over an array. 
+
+Object.prototype.hasOwnProperty should be used in for-in loops to exclude unwanted prototype properties. 
+
+*** Prefer for-of and Object.keys over for-in when possible.
+```
+
 ### Style Checking 
 (https://jshint.com/)
 
