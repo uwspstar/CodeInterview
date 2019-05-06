@@ -16,7 +16,7 @@ https://leetcode.com/
 - This can often avoid the need for nested loops or O(N^2) operations with arrays / strings
 
     
-##  hashmap{}
+###  hashmap{}
 ```
 let hashmap = {}; 
 
@@ -25,4 +25,6 @@ for(let val of arr1){
 }
 
 ```
+###  Object.keys(hashmap).length
+###  (new Set(arr)).size
 
