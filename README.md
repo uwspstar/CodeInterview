@@ -72,6 +72,21 @@ console.log(obj.greet);
 console.log(obj['greet']);
 var prop = 'greet';
 console.log(obj[prop]);
+
+// key can be a function
+var car = {
+  name: 'toyata',
+  model: 'x3',
+  weight: 1700,
+  extras: ['heated seats', 'tinted glass'],
+  details: function() {
+     alert(this.extras);
+  },
+  display: function() {
+    alert('This car is a ' + this.name + '.');
+  }
+};
+
 ```
 ### functions and arrays
 ```
