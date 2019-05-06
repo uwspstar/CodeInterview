@@ -1,5 +1,5 @@
 
-#study notes
+# Study Notes
 
 ### 5/5
 - for...of
