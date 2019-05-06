@@ -30,6 +30,12 @@ Object.prototype.hasOwnProperty should be used in for-in loops to exclude unwant
 *** Prefer for-of and Object.keys over for-in when possible.
 ```
 
+- 5.10.5 Wrapper objects for primitive types
+```
+Never use new on the primitive object wrappers (Boolean, Number, String, Symbol), nor include them in type annotations.
+```
+
+
 ### Style Checking 
 (https://jshint.com/)
 
