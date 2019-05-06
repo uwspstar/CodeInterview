@@ -4,6 +4,9 @@
 ### Google JavaScript Style Guide
 (https://google.github.io/styleguide/jsguide.html)
 
+### Style Checking 
+(https://jshint.com/)
+
 ### Event loop
 - What the heck is the event loop anyway? (https://www.youtube.com/watch?v=8aGhZQkoFbQ)  | Philip Roberts | JSConf EU
 
