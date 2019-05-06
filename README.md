@@ -5,7 +5,11 @@
 (https://google.github.io/styleguide/jsguide.html)
 
 - 5.1.1 Use const and let
-Declare all local variables with either const or let. Use const by default, unless a variable needs to be reassigned. The var keyword must not be used.
+```
+*** Declare all local variables with either const or let. 
+*** Use const by default, unless a variable needs to be reassigned. 
+*** The var keyword must not be used.
+```
 
 ### Style Checking 
 (https://jshint.com/)
