@@ -6,8 +6,36 @@ Return an array that includes both values that sum to zero or undefined if a pai
 
 */
 
-// Time Complexity - O(N^2) && Space Complexity - O(1)
+// is this a sort array ?
+// Time Complexity - O(N) && Space Complexity - O(1)
+const sumZero1 = function(arr) { 
 
+  let left=0;
+  let right= arr.length-1;
+
+  while(left<right){
+
+    const valLeft = arr[left];
+    const valRight = arr[right];
+
+    //console.log('valLeft',valLeft);
+    //console.log('valRight',valRight);
+
+    const temp = valLeft+valRight;
+    if(temp===0){
+      return[valLeft,valRight]
+    } else if(temp<0){left++;}
+    else{ 
+      right--;
+    }
+  }
+}
+console.log(sumZero1([-3,-2,-1,0,5,10])) // undefined
+console.log(sumZero1([-3,-2,-1,0,1,2,3])) // [-3,3] sorted
+console.log(sumZero1([-5,-4,-3,-2,-1,0,6,7,9])) // undefined
+
+
+// Time Complexity - O(N^2) && Space Complexity - O(1)
 // is this a sort array ?
 const sumZero = function(arr) {
   
