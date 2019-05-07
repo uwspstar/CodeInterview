@@ -5,8 +5,7 @@
 - for...of values
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
-- 
-```
+- ```
 haspMap[key] = ( haspMap[key] || 0 ) +1;
 ```
 - double index : index i, index j, j=i+1 
