@@ -20,3 +20,7 @@
 - Very useful for keeping track of a subset of data in an array/string etc.
 
 
+### How recursive functions work
+- Invoke the same function with a different input until you reach your base case!
+
+
