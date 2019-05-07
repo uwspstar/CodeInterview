@@ -39,6 +39,11 @@ Never use new on the primitive object wrappers (Boolean, Number, String, Symbol)
 ### Style Checking 
 (https://jshint.com/)
 
+## mutate
+```
+- For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them
+- Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
+```
 ### Event loop
 - What the heck is the event loop anyway? (https://www.youtube.com/watch?v=8aGhZQkoFbQ)  | Philip Roberts | JSConf EU
 
