@@ -1,7 +1,7 @@
 
-# Study Notes
+# Study Notes (use white board)
 
-### 5/5
+### 05/05/2019
 - for...of values
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
@@ -12,14 +12,13 @@
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
 
-### 5/6
+### 05/06/2019
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
 - [...`${num1}${num2}`] -- combind num1 and num2 to be a new arr 
 ```
 const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
 ```
 - typeof --NOT typeOf
-- maxSum = Math.max(maxSum, tempSum);
 
 - ```Declare all local variables with either const or let.``` 
 - ```Use const by default, unless a variable needs to be reassigned.```
@@ -27,3 +26,6 @@ const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 
 - ```[...foo]   // preferred over Array.prototype.slice.call(foo)```
 - ```[...foo, ...bar]   // preferred over foo.concat(bar)```
 - ``` Prefer for-of and Object.keys over for-in when possible.```
+
+### 05/07/2019
+- maxSum = Math.max(maxSum, tempSum);
