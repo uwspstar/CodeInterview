@@ -19,3 +19,4 @@
 const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
 ```
 - typeof --NOT typeOf
+- maxSum = Math.max(maxSum, tempSum);
