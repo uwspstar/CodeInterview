@@ -11,3 +11,6 @@
 - use index[0] as a space to save result
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
+
+### 5/6
+- slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
