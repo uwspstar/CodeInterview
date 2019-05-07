@@ -20,3 +20,12 @@ const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 
 ```
 - typeof --NOT typeOf
 - maxSum = Math.max(maxSum, tempSum);
+
+- ```Declare all local variables with either const or let.``` 
+- ```Use const by default, unless a variable needs to be reassigned.```
+- ```The var keyword must not be used.```
+
+- ```[...foo]   // preferred over Array.prototype.slice.call(foo)```
+- ```[...foo, ...bar]   // preferred over foo.concat(bar)```
+```
+- ``` Prefer for-of and Object.keys over for-in when possible.```
