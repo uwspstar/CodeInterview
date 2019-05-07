@@ -21,8 +21,8 @@
 
 
 ### RECURSIVE FUNCTIONS
-##### How recursive functions work
-- Invoke the same function with a different input until you reach your base case!
+- ##### How recursive functions work
+```Invoke the same function with a different input until you reach your base case!```
 
 ```Base Case :The condition when the recursion ends. This is the most important concept to understand```
 ```
