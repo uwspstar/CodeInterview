@@ -14,3 +14,8 @@
 
 ### 5/6
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
+- [...`${num1}${num2}`] -- combind num1 and num2 to be a new arr, convert num1 to 
+```
+const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
+```
+- typeof --NOT typeOf
