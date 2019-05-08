@@ -50,3 +50,4 @@ const printReverse2 = function(str){
 ### 05/08/2019
 - indexOf()  // NOT indexof 
 ```console.log(beasts.indexOf('bison', 2)); // start from index 2```
+- aString.charAt(index)
