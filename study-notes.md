@@ -76,3 +76,12 @@ use for(let i = 0; i < arr.length;i++)
  - shift(): Remove an item from the beginning of an array.
  - let str =  x.toString().trim('-'); // *** trim('-') NOT Working, need to use 
  - let str =  x.toString().replace("-","");
+ - while(strs[i].indexOf(result) != 0) // cannot found continue
+ ```
+    while(i < strs.length){ //loop array
+        while(strs[i].indexOf(result) != 0){
+          result = result.substring(0,result.length-1);
+        }   
+        i++;
+    }
+ ```
