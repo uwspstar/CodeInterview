@@ -73,3 +73,6 @@ use for(let i = 0; i < arr.length;i++)
   }
  ```
  - Math.pow(base, exponent)
+ - shift(): Remove an item from the beginning of an array.
+ - let str =  x.toString().trim('-'); // *** trim('-') NOT Working, need to use 
+ - let str =  x.toString().replace("-","");
