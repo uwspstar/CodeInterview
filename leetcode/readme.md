@@ -1,4 +1,5 @@
-https://leetcode.com/
+- https://leetcode.com/
+- http://www.cnblogs.com/grandyang/p/4570699.html
 
 ## PATTERNS...
 
