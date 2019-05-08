@@ -47,3 +47,6 @@ const printReverse2 = function(str){
   helper(arr);   return result.join('');
 }
 ```
+### 05/08/2019
+- indexOf()  // NOT indexof 
+```console.log(beasts.indexOf('bison', 2)); // start from index 2```
