@@ -53,7 +53,9 @@ const printReverse2 = function(str){
 console.log(beasts.indexOf('bison', 2)); // start from index 2
 ```
 - aString.charAt(index) // works, but slow
-- let arr = s.split(''); // Only build arr at once
+- 
 ```
-NOT for(let i = 0; i < s.split('').length ; i++), use for(let i = 0; i < arr.lengt
+let arr = s.split(''); // Only build arr at once
+NOT for(let i = 0; i < s.split('').length ; i++), 
+use for(let i = 0; i < arr.length;i++)
 ```
