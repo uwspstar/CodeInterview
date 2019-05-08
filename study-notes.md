@@ -49,7 +49,11 @@ const printReverse2 = function(str){
 ```
 ### 05/08/2019
 - indexOf()  //NOT indexof , indexOf works, but slow 
-```console.log(beasts.indexOf('bison', 2)); // start from index 2```
+```
+console.log(beasts.indexOf('bison', 2)); // start from index 2
+```
 - aString.charAt(index) // works, but slow
 - let arr = s.split(''); // Only build arr at once
-```NOT for(let i = 0; i < s.split('').length ; i++), use for(let i = 0; i < arr.lengt```
+```
+NOT for(let i = 0; i < s.split('').length ; i++), use for(let i = 0; i < arr.lengt
+```
