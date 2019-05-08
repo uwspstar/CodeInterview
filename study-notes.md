@@ -29,3 +29,4 @@ const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 
 
 ### 05/07/2019
 - maxSum = Math.max(maxSum, tempSum);
+- arr[i]%2===0;
