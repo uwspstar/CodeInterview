@@ -72,3 +72,4 @@ use for(let i = 0; i < arr.length;i++)
       arr[len-1-i] = temp;
   }
  ```
+ - Math.pow(base, exponent)
