@@ -59,3 +59,16 @@ let arr = s.split(''); // Only build arr at once
 NOT for(let i = 0; i < s.split('').length ; i++), 
 use for(let i = 0; i < arr.length;i++)
 ```
+- arr[arr.length -1] // arr last element
+- parseInt(len / 2) // get int
+- loop meet in the middle
+```
+  const len = arr.length;
+  const n = parseInt(len / 2);
+
+  for(let i = 0; i < n ; i++){
+      const temp = arr[i];
+      arr[i] =  arr[len-1-i];
+      arr[len-1-i] = temp;
+  }
+ ```
