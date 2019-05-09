@@ -1,5 +1,6 @@
 
 # Study Notes (use white board)
+- In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
 
 ### 05/05/2019
 - for...of values
@@ -98,3 +99,4 @@ use for(let i = 0; i < arr.length;i++)
 - str =`${num1}${num2}`;//conver num to string
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
+- (push/pop and unshift/shift), the longer word makes the array longer.
