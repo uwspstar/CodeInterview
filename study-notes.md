@@ -48,6 +48,8 @@ const printReverse2 = function(str){
 }
 ```
 ### 05/08/2019
+- let str = x + '';
+- let reversStr = str.split("").reverse().join("") ;
 - arr[0].toUpperCase()// up case
 - if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
 ```
