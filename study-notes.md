@@ -49,7 +49,7 @@ const printReverse2 = function(str){
 ```
 ### 05/08/2019
 
-```let str = x + ''; let reversStr = str.split("").reverse().join("") ;```
+- ```let str = x + ''; let reversStr = str.split("").reverse().join("") ;```
 - arr[0].toUpperCase()// up case
 - if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
 ```
@@ -94,3 +94,7 @@ use for(let i = 0; i < arr.length;i++)
         i++;
     }
  ```
+### 05/09/2019
+- str =`${num1}${num2}`;//conver num to string
+- str = num + ''; //conver num to string
+- num = +str ; //conver str to num
