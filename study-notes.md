@@ -2,8 +2,7 @@
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
  
-### 05/05/2019
-
+### 05/05/2019 
 - for...of values
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
@@ -14,8 +13,7 @@
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
 
-### 05/06/2019
- 
+### 05/06/2019 
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
 - [...`${num1}${num2}`] -- combind num1 and num2 to be a new arr 
 - const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
@@ -27,8 +25,7 @@
 - ```[...foo, ...bar]   // preferred over foo.concat(bar)```
 - ``` Prefer for-of and Object.keys over for-in when possible.```
 
-### 05/07/2019
-  
+### 05/07/2019 
 - maxSum = Math.max(maxSum, tempSum);
 - arr[i]%2===0;
 - Recursion
@@ -46,13 +43,9 @@ const printReverse2 = function(str){
   };
   //3. call helper
   helper(arr);   return result.join('');
-}```
-
- 
-
-### 05/08/2019
- 
- 
+}
+``` 
+### 05/08/2019 
 - ```let str = x + ''; let reversStr = str.split("").reverse().join("") ;```
 - arr[0].toUpperCase()// up case
 - if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
@@ -98,11 +91,7 @@ use for(let i = 0; i < arr.length;i++)
         i++;
     }
  ```
- 
-
-### 05/09/2019
- 
- 
+### 05/09/2019 
 - str =`${num1}${num2}`;//conver num to string
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
