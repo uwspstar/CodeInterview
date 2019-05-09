@@ -1,22 +1,9 @@
 
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
  
 ### 05/05/2019
- 
+<details><summary>See more</summary>
 - for...of values
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
@@ -26,9 +13,10 @@ print("hello world!")
 - use index[0] as a space to save result
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
- 
+</details> 
 
 ### 05/06/2019
+<details><summary>See more</summary>
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
 - [...`${num1}${num2}`] -- combind num1 and num2 to be a new arr 
 ```
@@ -42,8 +30,9 @@ const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 
 - ```[...foo]   // preferred over Array.prototype.slice.call(foo)```
 - ```[...foo, ...bar]   // preferred over foo.concat(bar)```
 - ``` Prefer for-of and Object.keys over for-in when possible.```
-
+</details> 
 ### 05/07/2019
+<details><summary>See more</summary>
 - maxSum = Math.max(maxSum, tempSum);
 - arr[i]%2===0;
 - Recursion
@@ -110,7 +99,9 @@ use for(let i = 0; i < arr.length;i++)
         i++;
     }
  ```
+ </details> 
 ### 05/09/2019
+<details><summary>See Detail</summary>
 - str =`${num1}${num2}`;//conver num to string
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
@@ -123,3 +114,4 @@ console.log(plants.pop());
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
 ```
+ </details> 
