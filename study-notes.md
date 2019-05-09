@@ -1,11 +1,9 @@
 
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
-
-<details>
-<summary>
+ 
 ### 05/05/2019
-</summary
+ 
 - for...of values
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
@@ -15,7 +13,7 @@
 - use index[0] as a space to save result
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
-</details>
+ 
 
 ### 05/06/2019
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
