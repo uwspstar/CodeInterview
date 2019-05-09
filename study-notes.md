@@ -102,3 +102,11 @@ use for(let i = 0; i < arr.length;i++)
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
 - ```(push/pop and unshift/shift), the longer word makes the array longer.```
+- arr.pop() //arr.pop() output: last one element
+- arr.pop() //conslg(arr) output: the rest arr
+```var plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+console.log(plants.pop());
+// expected output: "tomato"
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+```
