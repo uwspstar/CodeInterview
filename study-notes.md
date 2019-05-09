@@ -1,6 +1,19 @@
 
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
  
 ### 05/05/2019
  
