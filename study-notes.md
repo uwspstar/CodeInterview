@@ -104,4 +104,15 @@ console.log(plants.pop());
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
 ```
- 
+ - Circular Array
+ ```
+const arr =[1,2,3,4,5,6]
+const len = arr.length;
+let j = 0;
+while(j < len) {
+  const i = (3+j)%len;
+  const temp = `i = ${i}, arr[${i}] = ${arr[i]}`;
+  console.log(temp); 
+  j++
+}
+ ```
