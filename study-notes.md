@@ -19,11 +19,8 @@
 <details><summary>See more</summary>
 - slice(indexStart,indexEnd) -- NOT include arr[indexEnd]
 - [...`${num1}${num2}`] -- combind num1 and num2 to be a new arr 
-```
-const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
-```
+- const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 456;
 - typeof --NOT typeOf
-
 - ```Declare all local variables with either const or let.``` 
 - ```Use const by default, unless a variable needs to be reassigned.```
 - ```The var keyword must not be used.```
@@ -31,8 +28,10 @@ const combined1 = `${numOne}${numTwo}`; //string let numOne = 123; let numTwo = 
 - ```[...foo, ...bar]   // preferred over foo.concat(bar)```
 - ``` Prefer for-of and Object.keys over for-in when possible.```
 </details> 
+
 ### 05/07/2019
 <details><summary>See more</summary>
+ 
 - maxSum = Math.max(maxSum, tempSum);
 - arr[i]%2===0;
 - Recursion
@@ -52,8 +51,10 @@ const printReverse2 = function(str){
   helper(arr);   return result.join('');
 }
 ```
+</details> 
 ### 05/08/2019
-
+<details><summary>See more</summary>
+ 
 - ```let str = x + ''; let reversStr = str.split("").reverse().join("") ;```
 - arr[0].toUpperCase()// up case
 - if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
@@ -99,9 +100,11 @@ use for(let i = 0; i < arr.length;i++)
         i++;
     }
  ```
- </details> 
+</details> 
+
 ### 05/09/2019
 <details><summary>See Detail</summary>
+ 
 - str =`${num1}${num2}`;//conver num to string
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
