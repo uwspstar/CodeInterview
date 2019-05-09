@@ -1,1 +1,1 @@
-## (https://visualgo.net/en)
+## https://visualgo.net/en
