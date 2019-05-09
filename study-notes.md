@@ -32,8 +32,7 @@
 - maxSum = Math.max(maxSum, tempSum);
 - arr[i]%2===0;
 - Recursion
-
->```
+```
 const printReverse2 = function(str){ 
   let arr = str.split('');  let n = arr.length; 
   //1. output
