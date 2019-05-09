@@ -48,6 +48,12 @@ const printReverse2 = function(str){
 }
 ```
 ### 05/08/2019
+
+- if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
+```
+  - str.slice(1,-1) //cut first and last
+  - recursion inside if...else
+```
 - indexOf()  //NOT indexof , indexOf works, but slow 
 ```
 console.log(beasts.indexOf('bison', 2)); // start from index 2
@@ -72,6 +78,7 @@ use for(let i = 0; i < arr.length;i++)
       arr[len-1-i] = temp;
   }
  ```
+ 
  - Math.pow(base, exponent)
  - shift(): Remove an item from the beginning of an array.
  - let str =  x.toString().trim('-'); // *** trim('-') NOT Working, need to use 
