@@ -48,7 +48,7 @@ const printReverse2 = function(str){
 }
 ```
 ### 05/08/2019
-
+- arr[0].toUpperCase()// up case
 - if(str[0] === str.slice(-1)) return isPalindrome(str.slice(1,-1));
 ```
   - str.slice(1,-1) //cut first and last
