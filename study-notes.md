@@ -92,6 +92,7 @@ use for(let i = 0; i < arr.length;i++)
     }
  ```
 ### 05/09/2019 
+- nums.splice(i,1);// remove num[i] element ; NOT slice
 - str =`${num1}${num2}`;//conver num to string
 - str = num + ''; //conver num to string
 - num = +str ; //conver str to num
