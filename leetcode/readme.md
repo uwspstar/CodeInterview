@@ -18,6 +18,9 @@ https://leetcode.com/articles/remove-duplicates-from-sorted-array/
 - //0027. Remove Element
 https://leetcode.com/articles/remove-element/
 
+## Hash Table
+- 0001. Two Sum
+https://leetcode.com/articles/two-sum/
 
 ## RECURSION
 (https://leetcode.com/explore/learn/card/recursion-i/250/principle-of-recursion/1439/)
