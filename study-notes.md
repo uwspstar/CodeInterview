@@ -120,6 +120,7 @@ while(j < len) {
 
 ### 05/10/2019 
 - arr.join('') and arr.join() // NOT arr.join(),, so bad; BUG !!!
+- Math.abs(x) // absolute
 - Remove Duplicate // arr.length -> n also keep reduce when found duplicate
 ```
 public int removeElement(int[] nums, int val) {
