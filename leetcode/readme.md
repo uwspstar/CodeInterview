@@ -11,6 +11,13 @@
     - Greedy Algorithms
     - Backtracking
   
+## Two Pointers
+
+- 26. Remove Duplicates from Sorted Array
+https://leetcode.com/articles/remove-duplicates-from-sorted-array/
+- 27. Remove Element
+https://leetcode.com/articles/remove-element/
+
 
 ## RECURSION
 (https://leetcode.com/explore/learn/card/recursion-i/250/principle-of-recursion/1439/)
