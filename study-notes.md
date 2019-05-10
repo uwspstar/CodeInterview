@@ -119,6 +119,12 @@ while(j < len) {
  ```
 
 ### 05/10/2019 
+- a /= b is equivalent to a = a / b
+```
+a -= b is equivalent to a = a - b
+a *= b is equivalent to a = a * b
+a /= b is equivalent to a = a / b
+```
 - if( strs[i].indexOf(commonPrefix) != 0 ) // different with if( strs[i].indexOf(commonPrefix) === -1 )
 ```
 strs[i].indexOf(commonPrefix) != 0  make sure apper at begining
