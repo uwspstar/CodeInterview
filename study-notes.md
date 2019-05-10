@@ -119,6 +119,11 @@ while(j < len) {
  ```
 
 ### 05/10/2019 
+- if( strs[i].indexOf(commonPrefix) != 0 ) // different with if( strs[i].indexOf(commonPrefix) === -1 )
+```
+strs[i].indexOf(commonPrefix) != 0  make sure apper at begining
+strs[i].indexOf(commonPrefix) === -1 only make sure apper, but not always at begining
+```
 - arr.join('') and arr.join() // NOT arr.join(),, so bad; BUG !!!
 - Math.abs(x) // absolute
 - Remove Duplicate // arr.length -> n also keep reduce when found duplicate
