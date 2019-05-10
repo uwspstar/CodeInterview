@@ -13,9 +13,9 @@
   
 ## Two Pointers
 
-- 0026. Remove Duplicates from Sorted Array
+- //0026. Remove Duplicates from Sorted Array
 https://leetcode.com/articles/remove-duplicates-from-sorted-array/
-- 0027. Remove Element
+- //0027. Remove Element
 https://leetcode.com/articles/remove-element/
 
 
