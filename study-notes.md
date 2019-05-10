@@ -119,7 +119,7 @@ while(j < len) {
  ```
 
 ### 05/10/2019 
-- // arr.length -> n also keep reduce when found duplicate
+- Remove Duplicate // arr.length -> n also keep reduce when found duplicate
 ```
 public int removeElement(int[] nums, int val) {
     int i = 0;
