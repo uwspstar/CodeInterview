@@ -19,7 +19,7 @@ https://leetcode.com/articles/remove-duplicates-from-sorted-array/
 https://leetcode.com/articles/remove-element/
 
 ## Hash Table
-- 0001. Two Sum
+- //0001. Two Sum
 https://leetcode.com/articles/two-sum/
 
 ## RECURSION
