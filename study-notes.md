@@ -149,3 +149,6 @@ public int removeElement(int[] nums, int val) {
     return n;
 }
 ```
+### 05/11/2019 
+- [1] differnet [ [1] ]
+
