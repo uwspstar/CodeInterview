@@ -6,6 +6,10 @@
 - Bubble Sort
 - a = b + (b=a, 0) //swap without temp table
 ```
+1. (b=a, 0) sets b to the old value of a and yields 0
+2. a = b + 0 sets a to the old value of b
+```
+```
 a = a + b
 b = a - b
 a = a - b
@@ -218,6 +222,10 @@ var splits = myString.split(' ', 3); // ["Hello", "World.", "How"]
 - var strReverse = str.split('').reverse().join('');
 ```Bonus: use === operator to test if the original string was palindrome.```
 - a = b + (b=a, 0) // swap without temp table
+```
+1. (b=a, 0) sets b to the old value of a and yields 0
+2. a = b + 0 sets a to the old value of b
+```
 ```
 a = a + b
 b = a - b
