@@ -168,6 +168,8 @@ let hashmap = {
         'U' : true  
     }
 ```
+- arr.reduce((a,b)=>{},0) // 0 just initial number for b
+
 ### 05/12/2019
 - numbers.sort((a, b) => a - b); // SORT the way you want, such as numbers.sort((s1, s2) => s1.lenght - s2.length);
 - numbers.sort((s1, s2) => s1.lenght - s2.length);
