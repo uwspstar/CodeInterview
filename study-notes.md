@@ -8,8 +8,8 @@
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
 - ``` haspMap[key] = ( haspMap[key] || 0 ) +1; ```
-- double index : index i, index j, j=i+1 
-- double index : left index i, right index j, i and j meet in middle
+- double index : index i, index j, j=i+1 // two pointers
+- double index : left index i, right index j, i and j meet in middle //two pointers
 - use index[0] as a space to save result
 - new Set(arr).size -- NOT length
 - Object.keys(hashMap).length -- NOT size
@@ -167,6 +167,15 @@ let hashmap = {
         'O' : true,
         'U' : true  
     }
+```
+- double index : left index i, right index j, i and j meet in middle //two pointers 
+- while(<j){...} // meet, start noth side
+```
+while(<j){ // meet
+...
+i++; //from left, 
+j--; //from right 
+}
 ```
 - arr.reduce((a,b)=>{},0) // 0 just initial number for b
 
