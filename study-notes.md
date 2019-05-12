@@ -2,6 +2,7 @@
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
+- ask input string has none english letter
  
 ### 05/05/2019 
 - for...of values
