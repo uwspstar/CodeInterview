@@ -4,7 +4,15 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
 - ask input string has none english letter
 - Bubble Sort
+- https://medium.com/@frontman/how-swap-two-values-without-temporary-variables-using-javascript-8bb28f96b5f6
 - a = b + (b=a, 0) //swap without temp table
+- a = [b, b=a][0]; //swap without temp table
+- [a, b] = [b, a]
+```
+    We’re utilizing an array where the first index is the value of a and the second index is the value of b
+    a is set to the value of b when the array is created
+    b is set to the first index of the array, which is a
+```
 ```
 1. (b=a, 0) sets b to the old value of a and yields 0
 2. a = b + 0 sets a to the old value of b
@@ -222,6 +230,7 @@ var splits = myString.split(' ', 3); // ["Hello", "World.", "How"]
 - var strReverse = str.split('').reverse().join('');
 ```Bonus: use === operator to test if the original string was palindrome.```
 - a = b + (b=a, 0) // swap without temp table
+- [a, b] = [b, a]
 ```
 1. (b=a, 0) sets b to the old value of a and yields 0
 2. a = b + 0 sets a to the old value of b
