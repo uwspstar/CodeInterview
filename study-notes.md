@@ -1,6 +1,7 @@
 
 # Study Notes (use white board)
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
  
 ### 05/05/2019 
 - for...of values
@@ -167,4 +168,10 @@ let hashmap = {
         'U' : true  
     }
 ```
-
+### 05/12/2019
+- numbers.sort((a, b) => a - b); // SORT the way you want, such as numbers.sort((s1, s2) => s1.lenght - s2.length);
+- numbers.sort((s1, s2) => s1.lenght - s2.length);
+```
+let numbers = [4, 2, 5, 1, 3];
+numbers.sort((a, b) => a - b);
+```
