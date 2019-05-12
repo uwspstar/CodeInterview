@@ -177,3 +177,4 @@ let hashmap = {
 let numbers = [4, 2, 5, 1, 3];
 numbers.sort((a, b) => a - b);
 ```
+- arr.pop() // 1 ,last, element from arr , NOT reture rest arr, the arr modified
