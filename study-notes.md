@@ -178,3 +178,9 @@ let numbers = [4, 2, 5, 1, 3];
 numbers.sort((a, b) => a - b);
 ```
 - arr.pop() // 1 ,last, element from arr , NOT reture rest arr, the arr modified
+- arr.join() vs arr.join('');
+```
+var elements = ['Fire', 'Air', 'Water'];
+console.log(elements.join()); // expected output: "Fire,Air,Water"
+console.log(elements.join('')); // expected output: "FireAirWater"
+```
