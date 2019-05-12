@@ -1,9 +1,8 @@
 
 # Study Notes (use white board)
+- ask input string has none english letter
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
-- ask input string has none english letter
-- Bubble Sort
 - https://medium.com/@frontman/how-swap-two-values-without-temporary-variables-using-javascript-8bb28f96b5f6
 - [a, b] = [b, a]
 - a = b + (b=a, 0) //swap without temp table
@@ -21,6 +20,23 @@
 a = a + b
 b = a - b
 a = a - b
+```
+- Bubble sort (// i decrease, j increase, nest loop times keep shrinking)
+```
+ function bubbleSort(arr) {
+  const swap = (arr, idx1, idx2) => {
+    [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
+  };
+  // i decrease, j incrase, nest loop times keep shrinking
+  for (let i = arr.length; i > 0; i--) {
+    for (let j = 0; j < i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        swap(arr, j, j + 1);
+      }
+    }
+  }
+  return arr;
+}
 ```
  
 ### 05/05/2019 
