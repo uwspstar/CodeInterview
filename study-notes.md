@@ -151,4 +151,20 @@ public int removeElement(int[] nums, int val) {
 ```
 ### 05/11/2019 
 - [1] differnet [ [1] ]
+- split('') //NOT split()
+- Upper case and Lower case // CHECK input
+```
+let hashmap = {
+        'a' : true,
+        'e' : true,
+        'i' : true,
+        'o' : true,
+        'u' : true,
+        'A' : true,
+        'E' : true,
+        'I' : true,
+        'O' : true,
+        'U' : true  
+    }
+```
 
