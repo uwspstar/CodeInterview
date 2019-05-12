@@ -194,6 +194,7 @@ var elements = ['Fire', 'Air', 'Water'];
 console.log(elements.join()); // expected output: "Fire,Air,Water"
 console.log(elements.join('')); // expected output: "FireAirWater"
 ```
+- var arr = [...str];
 - str.split(' ') vs str.split('') // attention
 ```
 var str = 'The quick brown fox jumps over the lazy dog.';
@@ -203,4 +204,9 @@ var chars = str.split('');
 console.log(chars[8]);// expected output: "k"
 var strCopy = str.split();
 console.log(strCopy);// expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+var myString = 'Hello World. How are you doing?';
+var splits = myString.split(' ', 3); // ["Hello", "World.", "How"]
 ```
+- var strReverse = str.split('').reverse().join('');
+```Bonus: use === operator to test if the original string was palindrome.```
