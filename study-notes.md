@@ -21,7 +21,8 @@ a = a + b
 b = a - b
 a = a - b
 ```
-- Bubble sort (// i decrease, j increase, nest loop times keep shrinking)
+- Bubble sort 
+```(i decrease, j increase, nest loop times keep shrinking)```
 ```
  function bubbleSort(arr) {
   const swap = (arr, idx1, idx2) => {
