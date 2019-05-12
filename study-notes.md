@@ -4,6 +4,12 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
 - ask input string has none english letter
 - Bubble Sort
+- a = b + (b=a, 0) //swap without temp table
+```
+a = a + b
+b = a - b
+a = a - b
+```
  
 ### 05/05/2019 
 - for...of values
@@ -211,3 +217,9 @@ var splits = myString.split(' ', 3); // ["Hello", "World.", "How"]
 ```
 - var strReverse = str.split('').reverse().join('');
 ```Bonus: use === operator to test if the original string was palindrome.```
+- a = b + (b=a, 0) // swap without temp table
+```
+a = a + b
+b = a - b
+a = a - b
+```
