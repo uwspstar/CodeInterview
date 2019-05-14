@@ -282,3 +282,24 @@ a = a - b
 - new Set(arr)
 - var intersection = new Set([...set1].filter(x => set2.has(x))); // intersect can be simulated via 
 - var difference = new Set([...set1].filter(x => !set2.has(x))); // difference can be simulated via
+
+### 05/14/2019
+- bubbleSort . ( tow pointers) // first pointer backward, second pointer reduce every time 
+```
+function bubbleSort(arr){
+  var noSwaps;
+  for(var i = arr.length; i > 0; i--){
+    noSwaps = true;
+    for(var j = 0; j < i - 1; j++){
+      if(arr[j] > arr[j+1]){
+        var temp = arr[j];
+        arr[j] = arr[j+1];
+        arr[j+1] = temp;
+        noSwaps = false;         
+      }
+    }
+    if(noSwaps) break;
+  }
+  return arr;
+}
+```
