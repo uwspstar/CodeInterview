@@ -303,3 +303,5 @@ function bubbleSort(arr){
   return arr;
 }
 ```
+### 05/15/2019
+- [arr[min],arr[i]] = [arr[i],arr[min]]; //swap
