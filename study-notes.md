@@ -312,5 +312,5 @@ function bubbleSort(arr){
 var months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');// inserts at index 1 output: Array ['Jan', 'Feb', 'March', 'April', 'June']
 months.splice(4, 1, 'May');// replaces 1 element at index 4 output: Array ['Jan', 'Feb', 'March', 'April', 'May']
-var removed = months.splice(3, 1); // ['Jan', 'March', 'April'];
+var removed = months.splice(3, 1); //start index 3, remove 1 ['Jan', 'March', 'April'];
 ```
