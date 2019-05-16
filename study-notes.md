@@ -305,3 +305,12 @@ function bubbleSort(arr){
 ```
 ### 05/15/2019
 - [arr[min],arr[i]] = [arr[i],arr[min]]; //swap
+
+### 05/16/2019
+- arr.splice();
+```
+var months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');// inserts at index 1 output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+months.splice(4, 1, 'May');// replaces 1 element at index 4 output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+var removed = months.splice(3, 1); // ['Jan', 'March', 'April'];
+```
