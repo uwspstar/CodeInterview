@@ -1,9 +1,15 @@
 
 # Study Notes (use white board)
-- ask input string has none english letter
+
 - In each of those pairs (push/pop and unshift/shift), the longer word makes the array longer.
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
 - https://medium.com/@frontman/how-swap-two-values-without-temporary-variables-using-javascript-8bb28f96b5f6
+
+# ask question before start coding
+- ask input string has none english letter
+- ask Upper case and Lower case // CHECK input
+
+### quick NOTE
 - [a, b] = [b, a]
 - a = b + (b=a, 0) //swap without temp table
 - a = [b, b=a][0]; //swap without temp table
