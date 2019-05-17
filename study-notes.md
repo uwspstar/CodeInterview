@@ -317,3 +317,12 @@ var removed = months.splice(3, 1); //start index 3, remove 1 ['Jan', 'March', 'A
 ```
 ### 05/17/2019
 - insertion sort // if current is samller, insert current to new position, and remove current from old position
+- work.splice(0,index+1); // work.splice(0,len); // start 0 position remove len element
+- arr1[] = arr2[]; // if the arr2 change, the arr change also;
+```
+let arr2 =[ 'a', 'b', 'c'];
+let arr1 = arr2;
+arr2.pop();
+arr2.push("aaaa"); console.log(arr1); // . (arr2.pop()).push("aaaa"); 
+//not working, arr2.pop() is the last element, not the arr2 array
+```
