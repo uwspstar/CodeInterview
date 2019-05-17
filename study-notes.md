@@ -326,3 +326,4 @@ arr2.pop();
 arr2.push("aaaa"); console.log(arr1); // . (arr2.pop()).push("aaaa"); 
 //not working, arr2.pop() is the last element, not the arr2 array
 ```
+- let arr2 =[ 'a', 'b', 'c']; //NOT working let arr2 =[ a, b, c];
