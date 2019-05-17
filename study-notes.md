@@ -317,9 +317,12 @@ function bubbleSort(arr){
 - arr.splice();
 ```
 var months = ['Jan', 'March', 'April', 'June'];
-months.splice(1, 0, 'Feb');// inserts at index 1 output: Array ['Jan', 'Feb', 'March', 'April', 'June']
-months.splice(4, 1, 'May');// replaces 1 element at index 4 output: Array ['Jan', 'Feb', 'March', 'April', 'May']
-var removed = months.splice(3, 1); //start index 3, remove 1 ['Jan', 'March', 'April'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1 output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4 output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+var removed = months.splice(3, 1); 
+//start index 3, remove 1 ['Jan', 'March', 'April'];
 ```
 ### 05/17/2019
 - insertion sort // if current is samller, insert current to new position, and remove current from old position
