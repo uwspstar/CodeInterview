@@ -9,7 +9,7 @@
 - ask input string has none english letter
 - ask Upper case and Lower case // CHECK input
 
-### quick NOTE
+# QUICK NOTE
 - [a, b] = [b, a]
 - a = b + (b=a, 0) //swap without temp table
 - a = [b, b=a][0]; //swap without temp table
