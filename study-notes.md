@@ -5,11 +5,11 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map
 - https://medium.com/@frontman/how-swap-two-values-without-temporary-variables-using-javascript-8bb28f96b5f6
 
-# ask question before start coding
+# Ask Question Before Start Coding
 - ask input string has none english letter
 - ask Upper case and Lower case // CHECK input
 
-# QUICK NOTE
+# Quick Note
 - [a, b] = [b, a]
 - a = b + (b=a, 0) //swap without temp table
 - a = [b, b=a][0]; //swap without temp table
