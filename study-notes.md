@@ -8,7 +8,8 @@
 - a = b + (b=a, 0) //swap without temp table
 - a = [b, b=a][0]; //swap without temp table
 ```
-    We’re utilizing an array where the first index is the value of a and the second index is the value of b
+    We’re utilizing an array where the first index is the value of a 
+    and the second index is the value of b
     a is set to the value of b when the array is created
     b is set to the first index of the array, which is a
 ```
