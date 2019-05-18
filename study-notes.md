@@ -8,6 +8,8 @@
 # Ask Question Before Start Coding
 - ask input string has none english letter
 - ask Upper case and Lower case // CHECK input
+- ask the null and empty output
+- discuss first before start to code
 
 # Quick Note
 - [a, b] = [b, a]
