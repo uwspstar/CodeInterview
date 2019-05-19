@@ -9,7 +9,7 @@
 - ask input string has none english letter
 - ask Upper case and Lower case // CHECK input
 - ask the null and empty output
-- discuss first before start to code
+- discuss first before start to code, after code review
 
 # coding style
 - all space
