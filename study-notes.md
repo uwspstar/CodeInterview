@@ -11,6 +11,9 @@
 - ask the null and empty output
 - discuss first before start to code
 
+# coding style
+- all space
+
 # Quick Note
 - [a, b] = [b, a]
 - a = b + (b=a, 0) //swap without temp table
