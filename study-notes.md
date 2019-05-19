@@ -9,6 +9,7 @@
 - ask input string has none english letter
 - ask Upper case and Lower case // CHECK input
 - ask the null and empty output
+- ask ASCII str or Unicode str
 - discuss first before start to code, after code review
 
 # coding style
