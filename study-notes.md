@@ -347,6 +347,7 @@ arr2.push("aaaa"); console.log(arr1); // . (arr2.pop()).push("aaaa");
 
 ### 05/21/2019
 - 3 while loops for mergesort
+- mergesort : Divide and Conquer (abbreviated as D&C)
 - What is the sorting algorithm behind a Javascript Array.sort method?
 ```
 As ECMAScript doesn't specify any sorting algorithm to be implemented by Array.sort(), 
