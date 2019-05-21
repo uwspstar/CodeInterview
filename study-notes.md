@@ -342,3 +342,17 @@ arr2.push("aaaa"); console.log(arr1); // . (arr2.pop()).push("aaaa");
 //not working, arr2.pop() is the last element, not the arr2 array
 ```
 - let arr2 =[ 'a', 'b', 'c']; //NOT working let arr2 =[ a, b, c];
+### 05/20/2019
+- mergesort
+
+### 05/21/2019
+- 3 while loops for mergesort
+- What is the sorting algorithm behind a Javascript Array.sort method?
+```
+As ECMAScript doesn't specify any sorting algorithm to be implemented by Array.sort(), 
+it totally depends on browser which sorting algorithm to be implement. 
+Safari, Webkit, etc. uses selection sort 
+whereas Mozilla uses merge sort. 
+usually mergeSort is used as a built in sort method in most languages.
+```
+
