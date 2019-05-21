@@ -361,9 +361,7 @@ usually mergeSort is used as a built in sort method in most languages.
 - n.toLocaleString()
 ```
 function numberWithCommas(x) {
-    var parts = x.toString().split(".");
-    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    return parts.join(".");
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 var n = 34523453.345
