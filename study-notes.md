@@ -358,3 +358,15 @@ usually mergeSort is used as a built in sort method in most languages.
 ```
 - n/(2^k) = 1 -> n = 2^k -> k = lg(n)
 - There are log N levels and in each level, we perform O(N) work, thus the overall time complexity is O(N log N)
+- n.toLocaleString()
+```
+function numberWithCommas(x) {
+    var parts = x.toString().split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
+}
+
+var n = 34523453.345
+n.toLocaleString()
+"34,523,453.345"
+```
