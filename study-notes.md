@@ -356,4 +356,5 @@ Safari, Webkit, etc. uses selection sort
 whereas Mozilla uses merge sort. 
 usually mergeSort is used as a built in sort method in most languages.
 ```
-
+- n/(2^k) = 1 -> n = 2^k -> k = lg(n)
+- There are log N levels and in each level, we perform O(N) work, thus the overall time complexity is O(N log N)
