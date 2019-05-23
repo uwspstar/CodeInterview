@@ -369,4 +369,4 @@ n.toLocaleString()
 "34,523,453.345"
 ```
 ### 05/23/2019
-- quickSort
+- quickSort // Quick Sort is another Divide and Conquer sorting algorithm
