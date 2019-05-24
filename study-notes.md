@@ -370,3 +370,7 @@ n.toLocaleString()
 ```
 ### 05/23/2019
 - quickSort // Quick Sort is another Divide and Conquer sorting algorithm
+
+### 05/24/2019
+- parseInt(7/2) = 3
+- ~~ 3.5 = 3
