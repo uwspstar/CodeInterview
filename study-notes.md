@@ -374,3 +374,4 @@ n.toLocaleString()
 ### 05/24/2019
 - parseInt(7/2) = 3
 - ~~ 3.5 = 3
+- ( meet in the middle ) let startIndex = 0; let endIndex = nums.length-1;  // endIndex NOT nums.length
