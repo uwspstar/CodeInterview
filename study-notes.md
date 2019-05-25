@@ -292,7 +292,7 @@ a = a - b
 ```
 
 ### 05/13/2019
-- new Set(arr)
+- new Set(...arr)
 - var intersection = new Set([...set1].filter(x => set2.has(x))); // intersect can be simulated via 
 - var difference = new Set([...set1].filter(x => !set2.has(x))); // difference can be simulated via
 
