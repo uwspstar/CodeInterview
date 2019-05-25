@@ -380,4 +380,21 @@ n.toLocaleString()
 - Static methods are often used to create utility functions for an application.
 
 ### 05/25/2019
+- node
+```
+class Node{
+    constructor(val){
+        this.val = val;
+        this.next = null;
+    }
+}
+```
 - linkList //head Node->tail Node ( val, next ) // head and tail can be same
+```
+class SinglyLinkedList{
+    constructor(){
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+    }
+```
