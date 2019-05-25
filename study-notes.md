@@ -410,9 +410,9 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
-    ```
-    - LinkList pop() // remove the last node
-    ```
+```
+- LinkList pop() // remove the last node
+```
      pop() {
         if(!this.head) return undefined;
         var current = this.head;
@@ -432,6 +432,5 @@ class SinglyLinkedList{
             this.tail = null;
         }
         return current;
-
     }
 ```
