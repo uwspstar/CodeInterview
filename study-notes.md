@@ -410,17 +410,23 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
-    pop(){
+    ```
+    - LinkList pop() // remove the last node
+    ```
+     pop() {
         if(!this.head) return undefined;
         var current = this.head;
         var newTail = current;
-        while(current.next){
+        // get the node (newTail) before the last node (need to delete)
+        while(current.next) {
             newTail = current;
             current = current.next;
         }
+        // update new tail
         this.tail = newTail;
-        this.tail.next = null;
+        this.tail.next = null; 
         this.length--;
+        // check the list is empty
         if(this.length === 0){
             this.head = null;
             this.tail = null;
