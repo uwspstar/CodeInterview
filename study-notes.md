@@ -377,3 +377,4 @@ n.toLocaleString()
 - ( meet in the middle ) let startIndex = 0; let endIndex = nums.length-1;  // endIndex NOT nums.length
 - const INT_MAX = Math.pow(2, 31) - 1; // NOT Math.pow( 2^31 -1 )
 - const INT_MIN = Math.pow(-2, 31);  // NOT Math.pow( -2^31)
+- Static methods are often used to create utility functions for an application.
