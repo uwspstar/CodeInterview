@@ -13,7 +13,8 @@
 - discuss first before start to code, after code review
 
 # coding style
-- all space
+- Google JavaScript Style Guide
+(https://google.github.io/styleguide/jsguide.html)
 
 # Quick Note
 - [a, b] = [b, a]
