@@ -378,3 +378,6 @@ n.toLocaleString()
 - const INT_MAX = Math.pow(2, 31) - 1; // NOT Math.pow( 2^31 -1 )
 - const INT_MIN = Math.pow(-2, 31);  // NOT Math.pow( -2^31)
 - Static methods are often used to create utility functions for an application.
+
+### 05/25/2019
+- linkList //head Node->tail Node ( val, next ) // head and tail can be same
