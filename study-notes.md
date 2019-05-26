@@ -434,3 +434,9 @@ class SinglyLinkedList{
         return current;
     }
 ```
+- Add Element(s) to the Middle of an Array Using splice()
+```
+var list = ["foo", "bar"];
+list.splice( 1, 0, "baz", "qux");
+["foo", "baz", "qux", "bar"] // resul
+```
