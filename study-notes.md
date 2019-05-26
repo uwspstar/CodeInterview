@@ -240,9 +240,9 @@ let hashmap = {
     }
 ```
 - double index : left index i, right index j, i and j meet in middle //two pointers 
-- while(<j){...} // meet, start noth side
+- while(i<j){...} // meet, start noth side
 ```
-while(<j){ // meet
+while(i<j){ // meet
 ...
 i++; //from left, 
 j--; //from right 
