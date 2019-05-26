@@ -6,7 +6,7 @@
 - https://medium.com/@frontman/how-swap-two-values-without-temporary-variables-using-javascript-8bb28f96b5f6
 
 # Ask Question Before Start Coding
-- ask input string has none english letter
+- ask input string has none English letter
 - ask Upper case and Lower case // CHECK input
 - ask the null and empty output
 - ask ASCII str or Unicode str
