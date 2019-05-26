@@ -440,3 +440,13 @@ var list = ["foo", "bar"];
 list.splice( 1, 0, "baz", "qux");
 ["foo", "baz", "qux", "bar"] // resul
 ```
+- while(len--)
+- arr[m--]
+```
+let arr = [1,2,3,6,8,10];
+let len = arr.length;
+let m = len - 1;
+while(len--) {
+  console.log('arr[m] = ', arr[m--]);
+}
+```
