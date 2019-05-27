@@ -460,3 +460,8 @@ while(len--) {
 <<	Left shift	x = 5 << 1	0101 << 1	1010	 10
 >>	Right shift	x = 5 >> 1	0101 >> 1	0010	  2
 ```
+- string.charCodeAt(index)
+```
+var str = "HELLO WORLD";
+var n = str.charCodeAt(0);
+```
