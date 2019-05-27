@@ -465,3 +465,16 @@ while(len--) {
 var str = "HELLO WORLD";
 var n = str.charCodeAt(0);
 ```
+### The ASCII Character Set
+https://www.w3schools.com/charsets/ref_html_ascii.asp
+```
+ASCII stands for the "American Standard Code for Information Interchange".
+ASCII is a 7-bit character set containing 128 characters.
+It contains the numbers from 0-9, the upper and lower case English letters from A to Z, and some special characters.
+ASCII equivalent number.
+```
+- ```var s = 'A'; console.log(s.charCodeAt(0)); // 65 ```
+- A	65 // console.log(String.fromCharCode(65)) // A
+- a 97 // console.log(String.fromCharCode(97)) // a
+- str.charCodeAt(i); // NOT str.charCodeAt(str[i]);
+
