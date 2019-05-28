@@ -478,8 +478,8 @@ ASCII equivalent number.
 - a 97 // console.log(String.fromCharCode(97)) // a
 - str.charCodeAt(i); // NOT str.charCodeAt(str[i]);
 
-- fill emptu arr 
-``
+- fill 0 to arr 
+```
 let n = 10;
 let temp = new Array(n);
 temp.fill(0);
