@@ -478,3 +478,10 @@ ASCII equivalent number.
 - a 97 // console.log(String.fromCharCode(97)) // a
 - str.charCodeAt(i); // NOT str.charCodeAt(str[i]);
 
+```
+for (let i = 0; i < n; i++) {
+        let inner = new Array(n);
+        inner.fill(0);
+        result.push(inner);
+    }
+```
