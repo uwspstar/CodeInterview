@@ -493,3 +493,5 @@ for (let i = 0; i < n; i++) {
         arr.push(temp);
     }
 ```
+### 05/29/2019
+- segment tree https://www.youtube.com/watch?v=e_bK-dgPvfM&t=939s
