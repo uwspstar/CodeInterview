@@ -497,3 +497,11 @@ for (let i = 0; i < n; i++) {
 - segment tree https://www.youtube.com/watch?v=e_bK-dgPvfM&t=939s
 ### 05/30/2019
 https://www.cs.princeton.edu/~rs/AlgsDS07/
+```
+data types : stack, queue, list, union-find, priority queue
+sorting : quicksort, mergesort, heapsort, radix sorts
+searching : hash table, BST, red-black tree, B-tree
+graphs : BFS, DFS, Prim, Kruskal, Dijkstra
+strings : KMP, Rabin-Karp, TST, Huffman, LZW
+geometry : Graham scan, k-d tree, Voronoi diagram
+```
