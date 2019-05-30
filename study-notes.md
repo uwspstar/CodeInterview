@@ -495,3 +495,5 @@ for (let i = 0; i < n; i++) {
 ```
 ### 05/29/2019
 - segment tree https://www.youtube.com/watch?v=e_bK-dgPvfM&t=939s
+### 05/30/2019
+https://www.cs.princeton.edu/~rs/AlgsDS07/
