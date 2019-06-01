@@ -3,7 +3,7 @@
 ### Question
 
 ### 06/01/2019
-0001 String Reversal
-0002 Palindromes
+- 0001 String Reversal
+- 0002 Palindromes
  
  
