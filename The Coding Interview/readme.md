@@ -1,9 +1,9 @@
 # The Coding Interview
-- String Reversal
-```
-...
-for( let char of str) {
-  reverse = char + reverse;
-}
-...
-```
+ 
+### Question
+
+### 06/01/2019
+0001 String Reversal
+0002 Palindromes
+ 
+ 
