@@ -9,5 +9,6 @@
 ### 06/01/2019
 - 0001 String Reversal  //reduce function
 - 0002 Palindromes  // every function
+- 0003 Integer Reversal // Math.sign(x) , toString(), parseInt , parseInt(0.00000000000434, 10); 
  
  
