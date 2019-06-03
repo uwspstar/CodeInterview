@@ -517,3 +517,14 @@ geometry : Graham scan, k-d tree, Voronoi diagram
 1) OPTIMAL SUBSTRUCTURE
 2) OVERLAPPING SUBPROBLEMS
 ```
+- recheck merge sort
+https://visualgo.net/en/sorting?slide=10
+```
+Divide and Conquer algorithm solves (certain kind of) problem 
+
+Divide step: Divide the large, original problem into smaller sub-problems 
+and recursively solve the smaller sub-problems,
+
+Conquer step: Combine the results of the smaller sub-problems 
+to produce the result of the larger, original problem.
+```
