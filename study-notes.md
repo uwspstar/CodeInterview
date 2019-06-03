@@ -79,6 +79,7 @@ bubbleSort([8,1,2,3,4,5,6,7]);
 - for...in keys
 - input checking  if(arr.length < 2) return arr.length;
 - ``` haspMap[key] = ( haspMap[key] || 0 ) +1; ```
+- ``` haspMap[key] = haspMap[key] + 1 || 1; ```
 - double index : index i, index j, j=i+1 // two pointers
 - double index : left index i, right index j, i and j meet in middle //two pointers
 - use index[0] as a space to save result
@@ -505,3 +506,6 @@ graphs : BFS, DFS, Prim, Kruskal, Dijkstra
 strings : KMP, Rabin-Karp, TST, Huffman, LZW
 geometry : Graham scan, k-d tree, Voronoi diagram
 ```
+### 06/02/2019
+- ``` haspMap[key] = ( haspMap[key] || 0 ) +1; ```
+- ``` haspMap[key] = haspMap[key] + 1 || 1; ```
