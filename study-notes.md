@@ -507,7 +507,7 @@ strings : KMP, Rabin-Karp, TST, Huffman, LZW
 geometry : Graham scan, k-d tree, Voronoi diagram
 ```
 ### 06/02/2019
-- ``` haspMap[key] = ( haspMap[key] || 0 ) +1; ```
+- ``` haspMap[key] = ( haspMap[key] || 0 ) + 1; ```
 - ``` haspMap[key] = haspMap[key] + 1 || 1; ```
 
 ### 06/03/2019
