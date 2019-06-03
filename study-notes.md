@@ -517,8 +517,10 @@ geometry : Graham scan, k-d tree, Voronoi diagram
 1) OPTIMAL SUBSTRUCTURE
 2) OVERLAPPING SUBPROBLEMS
 ```
-- recheck merge sort
-https://visualgo.net/en/sorting?slide=10
+- Merge Sort https://visualgo.net/en/sorting?slide=10
+```
+Merge Sort is therefore very suitable to sort extremely large number of inputs as O(N log N) grows much slower than the O(N2) sorting algorithms
+```
 - Divide and Conquer algorithm
 ```
 Divide step: Divide the large, original problem into smaller sub-problems 
@@ -528,7 +530,8 @@ Conquer step: Combine the results of the smaller sub-problems
 to produce the result of the larger, original problem.
 ```
 - n / (2^k) = 1 ```n = 2^k  ==> k = lg n  ```
-https://visualgo.net/en/sorting?slide=10-8
-https://visualgo.net/en/sorting?slide=10-9
+- https://visualgo.net/en/sorting?slide=10-8
+- https://visualgo.net/en/sorting?slide=10-9
 
+- Quick Sort is another Divide and Conquer sorting algorithm
 
