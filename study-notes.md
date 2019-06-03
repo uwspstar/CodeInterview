@@ -26,6 +26,7 @@
     a is set to the value of b when the array is created
     b is set to the first index of the array, which is a
 ```
+- a = [b, b=a][0]; //[b,b = a] new array, the first item index [0], a = [new array][0] //smart
 ```
 1. (b=a, 0) sets b to the old value of a and yields 0
 2. a = b + 0 sets a to the old value of b
