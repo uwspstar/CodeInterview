@@ -527,5 +527,8 @@ and recursively solve the smaller sub-problems,
 Conquer step: Combine the results of the smaller sub-problems 
 to produce the result of the larger, original problem.
 ```
+- n / (2^k) = 1 ```n = 2^k  ==> k = lg n  ```
 https://visualgo.net/en/sorting?slide=10-8
--
+https://visualgo.net/en/sorting?slide=10-9
+
+
