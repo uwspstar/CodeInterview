@@ -261,4 +261,9 @@ points.sort(function(a, b){return a - b});
 var points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return b - a});
 
+- function addTwoNumbers (l1, l2) {..} vs const addTwoNumbers = function (l1, l2) {...}
+```
+const addTwoNumbers declare first, then below it can use addTwoNumbers function;
+function addTwoNumbers call be called anywhere, the javascript will auto put it on the top
+```
  
