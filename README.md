@@ -277,3 +277,22 @@ const addTwoNumbers declare first, then below it can use addTwoNumbers function;
 function addTwoNumbers call be called anywhere, the javascript will auto put it on the top
 ```
  
+ ```
+ (function(){
+  var a = b = 3; // var a = b;  b = 3;
+})();
+
+console.log(typeof a); //undefined
+console.log(typeof b); //int
+```
+```
+var x = 5;
+
+(function () {
+    console.log(x); //undefined
+    var x = 10;
+    console.log(x); //10
+})();
+
+//inside function, declare to use
+```
