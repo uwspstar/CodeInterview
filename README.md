@@ -147,9 +147,17 @@ arr.push(function() {
 	console.log('Hello world 3');
 });
 
+//arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
 arr.forEach(function(item) {
 	item();
 });
+
+forEach the callback is invoked with three arguments:
+
+the value of the element
+the index of the element
+the Array object being traversed
+
 ```
 ### IIFE
 ```
