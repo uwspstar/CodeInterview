@@ -296,3 +296,36 @@ var x = 5;
 
 //inside function, declare to use
 ```
+```
+function foo1() {
+  return {
+    bar: 'bar',
+  };
+}
+
+function foo2() {
+  return
+  {
+    'bar';
+  }
+}
+
+console.log(foo1());//{ bar: 'bar' }
+console.log(foo2()); //undefined
+```
+
+```
+console.log(0.1 + 0.2); //0.3
+console.log(0.1 + 0.2 === 0.3); //false
+console.log(9007199254740993 === 9007199254740992); //true
+```
+```
+const a = {},
+    b = {c:'b'},
+    c = {b:'c'};
+
+a[b] = 111;
+a[c] = 333;
+
+console.log(a[b]); //333
+```
