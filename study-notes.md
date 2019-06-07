@@ -538,6 +538,7 @@ to produce the result of the larger, original problem.
 - Frequency Counter Pattern
 ### 06/07/2019
 - let res = Array(m + n).fill(0); // create new array with element 0
+- +num1.charAt(i) // convert char to number
 ```
    const m = num1.length;
     const n = num2.length;
