@@ -329,3 +329,7 @@ a[c] = 333;
 
 console.log(a[b]); //333
 ```
+```
+console.log(1 < 2 < 2); //true
+console.log(3 > 2 > 1); //false
+```
