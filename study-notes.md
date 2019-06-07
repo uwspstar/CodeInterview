@@ -544,3 +544,14 @@ to produce the result of the larger, original problem.
     const n = num2.length;
     let res = Array(m + n).fill(0);
 ```
+- Math.trunc() // returns the integer part of a number by removing any fractional digits.
+```
+Math.trunc(13.37);    // 13
+Math.trunc(42.84);    // 42
+Math.trunc(0.123);    //  0
+Math.trunc(-0.123);   // -0
+Math.trunc('-1.123'); // -1
+Math.trunc(NaN);      // NaN
+Math.trunc('foo');    // NaN
+Math.trunc();         // NaN
+```
