@@ -536,3 +536,10 @@ to produce the result of the larger, original problem.
 
 - Quick Sort is another Divide and Conquer sorting algorithm
 - Frequency Counter Pattern
+### 06/07/2019
+- let res = Array(m + n).fill(0); // create new array with element 0
+```
+   const m = num1.length;
+    const n = num2.length;
+    let res = Array(m + n).fill(0);
+```
