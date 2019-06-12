@@ -48,6 +48,7 @@ void merge(int a[], int low, int mid, int high) {
 }
 
 ```
+### 06/11/2019
 ### BIG O of Stacks
 - insertion O(1)
 - removal O(1)
