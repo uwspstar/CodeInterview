@@ -92,3 +92,6 @@ class Stack {
     }
 }
 ```
+### Queues Using Arrays FIFO
+- unshift with pop
+- push with shift
