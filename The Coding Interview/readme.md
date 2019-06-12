@@ -29,3 +29,22 @@ Here are the questions:
 - What's best/ worst running time for Merge Sort?
 - What's average / worst running time for Quick Sort?
 - What's the worst running time for a look up in a Hashtable?
+### Merge Sort
+```
+Try Merge Sort on the example array [1, 5, 19, 20, 2, 11, 15, 17] 
+that have its first half already sorted [1, 5, 19, 20] 
+and its second half also already sorted [2, 11, 15, 17]. 
+
+void merge(int a[], int low, int mid, int high) {
+  // subarray1 = a[low..mid], subarray2 = a[mid+1..high], both sorted
+  int N = high-low+1; // N is new arr length
+  int b[N]; // b[N ]is a temporary array
+  int left = low, right = mid+1, bIdx = 0;
+  while (left <= mid && right <= high) // the merging
+    b[bIdx++] = (a[left] <= a[right]) ? a[left++] : a[right++]; // move the arr1 index or arr2 index
+  while (left <= mid) b[bIdx++] = a[left++]; // leftover, if any
+  while (right <= high) b[bIdx++] = a[right++]; // leftover, if any
+  for (int k = 0; k < N; k++) a[low+k] = b[k]; // copy back
+}
+
+```
