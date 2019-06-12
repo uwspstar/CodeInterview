@@ -113,7 +113,7 @@ const factorialNumber = function(n) {
 console.log(factorialNumber(3)); // 6
 ```
 - Fibonacci // Fibonacci recursion tree (and DAG) are frequently used to showcase the basic idea of recursion.
-``
+```
 each recursive step recurses to two other smaller sub-problems. 
 (after one understands the concept of Dynamic Programming) 
 
