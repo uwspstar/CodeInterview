@@ -48,3 +48,8 @@ void merge(int a[], int low, int mid, int high) {
 }
 
 ```
+### BIG O of Stacks
+- insertion O(1)
+- removal O(1)
+- search O(n)
+- access o(n)
