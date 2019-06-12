@@ -135,6 +135,7 @@ const fabonacci = function(n) {
 console.log(fabonacci(4)); // 5
 ```
 - Catalan ```the number of ways a polygon with n+2 sides can be cut into n triangles```
+http://mathforum.org/advanced/robertd/catalan.html
 ```
 const catalan = function(n) {
   //catalan
