@@ -134,6 +134,25 @@ const fabonacci = function(n) {
 
 console.log(fabonacci(4)); // 5
 ```
+- Catalan ```the number of ways a polygon with n+2 sides can be cut into n triangles```
+```
+const catalan = function(n) {
+  //catalan
+  if (n == 0) /* base case */
+    return 1;
+  else /* recursive case */
+    return catalan(n - 1) * 2 * n * (2 * n - 1)/(n + 1)/n;
+    // f3 = f2 * 2*3*(2*3-1)/(3+1)/3 = f2 * 2.5, 
+    // f2 = f1 * 2*2*(2*2-1)/(2+1)/2 = f1 * 2
+    // f1 = 1
+    // f2 = 2,
+    // f3 = 5
+}
+
+console.log(catalan(3)); // 5
+```
+- use single link list show recursive
+
 ### tree
 - tree
 - binary tree
