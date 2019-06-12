@@ -95,3 +95,47 @@ class Stack {
 ### Queues Using Arrays FIFO
 - unshift with pop
 - push with shift
+### 06/11/2019
+### recursive
+- Factorial
+```
+const factorialNumber = function(n) {
+  //Factorial
+  if (n <= 1) /* base case */
+    return n;
+  else /* recursive caseS */
+    return n * factorialNumber(n-1); 
+    //f3 = 3*f2, f2 = 2*f1, f1 = 1
+    // f2 = 2
+    // f3 = 6
+}
+
+console.log(factorialNumber(3)); // 6
+```
+- Fibonacci // Fibonacci recursion tree (and DAG) are frequently used to showcase the basic idea of recursion.
+``
+each recursive step recurses to two other smaller sub-problems. 
+(after one understands the concept of Dynamic Programming) 
+
+const fabonacci = function(n) {
+  //fabonacci
+  if (n <= 1) /* base case */
+    return 1;
+  else /* recursive caseS */
+    return fabonacci(n - 1) + fabonacci(n - 2); 
+    // f4 = f3 + f2, 
+    // f3 = f2 + f1, 
+    // f2 = f1 + f0,
+    // f1 = 1, f0 = 1
+    // f2 = 2,
+    // f3 = 3
+    // f4 = f3 + f2 = 3 + 2 = 5
+}
+
+console.log(fabonacci(4)); // 5
+```
+### tree
+- tree
+- binary tree
+- binary search tree
+- single link list
