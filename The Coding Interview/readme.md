@@ -164,4 +164,12 @@ console.log(catalan(3)); // 5
 - single link list
 ### 06/15/2019
 - let currnet = this.root; //(tree) 
-- const resultArray = str.match(/[aeiou]/gi ``` match char indise[],g : continue after find first match, i :  ignore case```
+- const resultArray = str.match(/[aeiou]/gi); 
+``` 
+//match char indise[],g : continue after find first match, i :  ignore case
+
+const resultArray = str.match(/[aeiou]/gi
+
+retunr resultArray ? resultArray.length : 0;
+
+```
