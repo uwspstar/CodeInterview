@@ -162,3 +162,5 @@ console.log(catalan(3)); // 5
 - binary tree
 - binary search tree
 - single link list
+### 06/15/2019
+- let currnet = this.root; //(tree) 
