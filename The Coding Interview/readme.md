@@ -168,7 +168,7 @@ console.log(catalan(3)); // 5
 ``` 
 //match char indise[],g : continue after find first match, i :  ignore case
 
-const resultArray = str.match(/[aeiou]/gi
+const resultArray = str.match(/[aeiou]/gi);
 
 retunr resultArray ? resultArray.length : 0;
 
