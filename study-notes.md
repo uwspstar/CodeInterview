@@ -766,3 +766,12 @@ repeat (numOfElements - 1) times
       set element as new minimum
   swap minimum with first unsorted position
   ```
+```
+void selectionSort(int a[], int N) {
+  for (int L = 0; L <= N-2; L++) { // O(N)
+    int X = min_element(a+L, a+N) - a; // O(N)
+    swap(a[X], a[L]); // O(1), X may be equal to L (no actual swap)
+  }
+}
+Total: O(N2) — To be precise, it is similar to Bubble Sort analysis.
+```
