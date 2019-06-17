@@ -242,6 +242,7 @@ let hashmap = {
     }
 ```
 - double index : left index i, right index j, i and j meet in middle //two pointers 
+``` check pair```
 - while(i<j){...} // meet, start noth side
 ```
 while(i<j){ // meet
@@ -282,7 +283,7 @@ var splits = myString.split(' ', 3); // ["Hello", "World.", "How"]
 ```
 - var strReverse = str.split('').reverse().join('');
 ```Bonus: use === operator to test if the original string was palindrome.```
-- [a, b] = [b, a]
+- [a, b] = [b, a]  // ES6 swap without temp table
 - a = b + (b=a, 0) // swap without temp table
 ```
 1. (b=a, 0) sets b to the old value of a and yields 0
@@ -302,9 +303,22 @@ a = a - b
 ### 05/14/2019
 - bubbleSort . ( tow pointers) // first pointer backward, second pointer reduce every time 
 ```
+1. Compare a pair of adjacent items (a, b),
+2. Swap that pair if the items are out of order (in this case, when a > b),
+3. Repeat Step 1 and 2 until we reach the end of array
+(the last pair is the (N-2)-th and (N-1)-th items as we use 0-based indexing),
+4. By now, the largest item will be at the last position.
+We then reduce N by 1 and repeat Step 1 until we have N = 1.
+
+Bubble Sort is actually inefficient with its O(N^2) time complexity. 
+Imagine that we have N = 105 numbers. Even if our computer is super fast 
+and can compute 108 operations in 1 second, Bubble Sort will need about 100 seconds to complete.
+```
+```
+//[5, 8, 2, 4, 3, 1]
 function bubbleSort(arr){
-  var noSwaps;
-  for(var i = arr.length; i > 0; i--){
+  let noSwaps;
+  for(var i = arr.length; i > 0; i--){ // ??? not i = arr.length-1; i>=0 
     noSwaps = true;
     for(var j = 0; j < i - 1; j++){
       if(arr[j] > arr[j+1]){
