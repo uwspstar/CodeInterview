@@ -734,3 +734,17 @@ const resultArray = str.match(/[aeiou]/gi);
 retunr resultArray ? resultArray.length : 0;
 
 ```
+### 06/17/2019
+- bubbleSort . ( tow pointers) // first pointer backward, second pointer reduce every time 
+```
+1. Compare a pair of adjacent items (a, b),
+2. Swap that pair if the items are out of order (in this case, when a > b),
+3. Repeat Step 1 and 2 until we reach the end of array
+(the last pair is the (N-2)-th and (N-1)-th items as we use 0-based indexing),
+4. By now, the largest item will be at the last position.
+We then reduce N by 1 and repeat Step 1 until we have N = 1.
+
+Bubble Sort is actually inefficient with its O(N^2) time complexity. 
+Imagine that we have N = 105 numbers. Even if our computer is super fast 
+and can compute 108 operations in 1 second, Bubble Sort will need about 100 seconds to complete.
+```
