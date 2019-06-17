@@ -748,3 +748,12 @@ Bubble Sort is actually inefficient with its O(N^2) time complexity.
 Imagine that we have N = 105 numbers. Even if our computer is super fast 
 and can compute 108 operations in 1 second, Bubble Sort will need about 100 seconds to complete.
 ```
+```
+do
+  swapped = false
+  for i = 1 to indexOfLastUnsortedElement-1
+    if leftElement > rightElement
+      swap(leftElement, rightElement)
+      swapped = true
+while swapped
+```
