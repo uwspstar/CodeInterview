@@ -757,3 +757,12 @@ do
       swapped = true
 while swapped
 ```
+- SelectionSort
+```
+repeat (numOfElements - 1) times
+  set the first unsorted element as the minimum
+  for each of the unsorted elements
+    if element < currentMinimum
+      set element as new minimum
+  swap minimum with first unsorted position
+  ```
