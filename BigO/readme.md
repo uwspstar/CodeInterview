@@ -76,3 +76,13 @@ Object.values -   O(N)
 Object.entries -   O(N)
 hasOwnProperty -   O(1)
 ```
+
+### ARRAYS
+- Ordered lists!
+- WHEN TO USE ARRAYS
+```
+- When you need order
+- When you need fast access / insertion and removal (sort of....)
+```
+
+
