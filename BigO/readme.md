@@ -54,9 +54,23 @@ Rules of Thumb
 - Reference types are generally O( n), where n is the length (for arrays) or the number of keys (for objects)
 ```
 
-### OBJECTIVES
+### OBJECTIVES (Unordered, key value pairs!)
 - Understand how objects and arrays work, through the lens of Big O
 - Explain why adding elements to the beginning of an array is costly
 - Compare and contrast the runtime for arrays and objects, as well as built-in methods
+
+- When to use objects
+```
+- When you don't need order
+- When you need fast access / insertion and removal
+```
+### Big O of Objects
+- When you don't need any ordering, objects are an excellent choice!
+```
+Insertion -   O(1)
+Removal -   O(1)
+Searching -   O(N)
+Access -   O(1)
+```
 
 
