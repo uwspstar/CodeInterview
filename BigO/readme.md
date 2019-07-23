@@ -2,10 +2,23 @@
 ```
 We say that an algorithm is O(f(n)) 
 if the number of simple operations the computer has to do is eventually less than a constant times f(n), 
-as n increases
+as n increases.
+
+In a loop, the the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+
 ```
 - f(n) could be linear (f(n) = n)
 - f(n) could be quadratic (f(n) = n  )
 - f(n) could be constant (f(n) = 1)
 - f(n) could be something entirely different!
+
+### Constants Don't Matte
+### Smaller Terms Don't Matter
+### Big O Shorthands
+
+- Arithmetic operations are constant
+- Variable assignment is constant
+- Accessing elements in an array (by index) or object (by key) is constant
+- In a loop, the the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+
 
