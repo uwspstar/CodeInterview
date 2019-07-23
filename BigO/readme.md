@@ -105,4 +105,10 @@ splice -   O(N)
 ***** forEach/map/filter/reduce/etc. -   O(N)
 ```
 
+- Limitations of Arrays
+```
+Inserting at the beginning is not as easy as we might think! 
+There are more efficient data structures for that!
+```
+
 
