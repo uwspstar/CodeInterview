@@ -4,7 +4,8 @@ We say that an algorithm is O(f(n))
 if the number of simple operations the computer has to do is eventually less than a constant times f(n), 
 as n increases.
 
-In a loop, the the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+In a loop, the the complexity is the length of the loop times the complexity of whatever happens 
+inside of the loop
 
 ```
 - f(n) could be linear (f(n) = n)
