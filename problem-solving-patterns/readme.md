@@ -10,7 +10,7 @@ two pointer problems and divide and conquer
 - WHAT IS AN ALGORITHM?
 ```A process or set of steps to accomplish a certain task.```
 
-- PROBLEM SOLVING
+### PROBLEM SOLVING
 ```
 - Understand the Problem
 - Explore Concrete Examples
@@ -19,9 +19,8 @@ two pointer problems and divide and conquer
 - Look Back and Refactor
 ```
 
+- UNDERSTAND THE PROBLEM
 ```
-UNDERSTAND THE PROBLEM
-
 Can I restate the problem in my own words?
 What are the inputs that go into the problem?
 What are the outputs that should come from the solution to the problem?
@@ -29,7 +28,16 @@ Can the outputs be determined from the inputs? In other words,
 do I have enough information to solve the problem? 
 (You may not be able to answer this question until you set about solving the problem. That's okay; 
 it's still worth considering the question at this early stage.)
-```    
+How should I label the important pieces of data that are a part of the problem?
+``` 
+- EXPLORE EXAMPLES
+```
+Start with Simple Examples
+Progress to More Complex Examples
+**** Explore Examples with Empty Inputs
+**** Explore Examples with Invalid Inputs
+```
+
 
 ### FREQUENCY COUNTERS
 
