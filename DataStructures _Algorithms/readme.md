@@ -1,1 +1,2 @@
-## https://visualgo.net/en
+- https://visualgo.net/en
+- https://cs.slides.com/colt_steele/problem-solving-patterns#/
