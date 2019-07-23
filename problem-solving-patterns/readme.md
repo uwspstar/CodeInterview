@@ -7,6 +7,29 @@
 - Compare and contrast problem solving patterns including frequency counters, 
 two pointer problems and divide and conquer
 ```
+- WHAT IS AN ALGORITHM?
+```A process or set of steps to accomplish a certain task.```
+
+- PROBLEM SOLVING
+```
+- Understand the Problem
+- Explore Concrete Examples
+- Break It Down
+- Solve/Simplify
+- Look Back and Refactor
+```
+
+```
+UNDERSTAND THE PROBLEM
+
+Can I restate the problem in my own words?
+What are the inputs that go into the problem?
+What are the outputs that should come from the solution to the problem?
+Can the outputs be determined from the inputs? In other words, 
+do I have enough information to solve the problem? 
+(You may not be able to answer this question until you set about solving the problem. That's okay; 
+it's still worth considering the question at this early stage.)
+```    
 
 ### FREQUENCY COUNTERS
 
