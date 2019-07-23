@@ -1,6 +1,12 @@
 
 # JavaScript Algorithms and Data Structures Masterclass: 
 - https://www.udemy.com/js-algorithms-and-data-structures-masterclass by Colt Steele
+```
+- Define what an algorithm is
+- Devise a plan to solve algorithms
+- Compare and contrast problem solving patterns including frequency counters, 
+two pointer problems and divide and conquer
+```
 
 ### FREQUENCY COUNTERS
 
@@ -31,7 +37,6 @@
     - ```Invoke the same function with a different input until you reach your base case!```
 
     - ```Base Case :The condition when the recursion ends. This is the most important concept to understand```
-    
 
 
 
