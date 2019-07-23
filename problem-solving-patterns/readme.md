@@ -77,6 +77,9 @@ How have other people solved this problem?
 ```
 
 
+# Algorithms and Problem Solving Patterns
+- https://cs.slides.com/colt_steele/problem-solving-patterns#/
+
 ### FREQUENCY COUNTERS
 
 - This pattern uses objects or sets to collect values/frequencies of values
