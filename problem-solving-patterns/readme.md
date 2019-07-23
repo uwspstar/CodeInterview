@@ -37,7 +37,33 @@ Progress to More Complex Examples
 **** Explore Examples with Empty Inputs
 **** Explore Examples with Invalid Inputs
 ```
+- BREAK IT DOWN
+```
+Explicitly write out the steps you need to take.
 
+This forces you to think about the code you'll write before you write it, 
+and helps you catch any lingering conceptual issues or misunderstandings 
+before you dive in and have to worry about details (e.g. language syntax) as well.
+```
+- SIMPLIFY
+```
+Find the core difficulty in what you're trying to do
+Temporarily ignore that difficulty
+Write a simplified solution
+Then incorporate that difficulty back in
+```
+- REFACTORING QUESTIONS
+```
+Can you check the result?
+Can you derive the result differently?
+Can you understand it at a glance?
+Can you use the result or method for some other problem?
+Can you improve the performance of your solution?
+Can you think of other ways to refactor?
+How have other people solved this problem?
+```
+
+Congrats on solving it, but you're not done!
 
 ### FREQUENCY COUNTERS
 
