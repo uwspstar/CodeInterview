@@ -63,7 +63,19 @@ Can you think of other ways to refactor?
 How have other people solved this problem?
 ```
 
-Congrats on solving it, but you're not done!
+
+### SOME PATTERNS...
+```
+- Frequency Counter
+- Multiple Pointers
+- Sliding Window
+- Divide and Conquer
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
+********** Many more!
+```
+
 
 ### FREQUENCY COUNTERS
 
