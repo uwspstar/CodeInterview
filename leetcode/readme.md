@@ -1,5 +1,6 @@
 - https://leetcode.com/
 - http://www.cnblogs.com/grandyang/p/4570699.html
+- http://www.goodtecher.com/zh/leetcode%e8%ae%b2%e8%a7%a3%e6%b1%87%e6%80%bb/
 
 ## PATTERNS...
 
