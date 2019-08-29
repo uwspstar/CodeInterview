@@ -7,7 +7,9 @@
   - 1. Variable in its owner scope
   - 2. Variable in the scope of the outer function
   - 3. Variable in the global scope
-
+- The closure also has access to:
+  - 1. Its own parameters
+  - 2. Parameters of outer functions(s)
 
 const globalVariable = 'global var';
  
