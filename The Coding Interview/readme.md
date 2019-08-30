@@ -1,3 +1,13 @@
+# The JS basic knowledge Interview
+
+### Hoisting in JavaScript
+### IIFEs
+### Closures
+### "this" Keyword
+### Scope and "self"
+### Equals vs Strict Equals
+### "call" and "apply" Methods
+
 # The Coding Interview
 ### Big O
 http://bigocheatsheet.com/
