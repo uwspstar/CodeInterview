@@ -8,6 +8,9 @@ keywords with let or const are not initialized until their actual declaration so
 not be accessed until they are actually declared.
 ```
 ### IIFEs
+- ()();
+- (fn(num) {...})(1)
+
 ### Closures
 ### "this" Keyword
 ### Scope and "self"
