@@ -1,3 +1,5 @@
+// also look at Curry function
+
 function myFunc() {
   let count = 0;
   
@@ -7,14 +9,14 @@ function myFunc() {
   };
 }
  
-console.log(myFunc());
+console.log(myFunc()); // print a function 
  
-const instanceOne = myFunc();
+const instanceOne = myFunc(); // create a instanse to hold function
 const instanceTwo = myFunc();
  
-console.log('instanceOne: ', instanceOne());
-console.log('instanceOne: ', instanceOne());
-console.log('instanceOne: ', instanceOne());
-console.log('instanceTwo: ', instanceTwo());
-console.log('instanceTwo: ', instanceTwo());
-console.log('instanceOne: ', instanceOne());
+console.log('instanceOne: ', instanceOne()); // return instanceOne: 1
+console.log('instanceOne: ', instanceOne()); // return instanceOne: 2
+console.log('instanceOne: ', instanceOne()); // return instanceOne: 3
+console.log('instanceTwo: ', instanceTwo()); // return instanceTwo: 1
+console.log('instanceTwo: ', instanceTwo()); // return instanceTwo: 2
+console.log('instanceOne: ', instanceOne()); // return instanceOne: 4
