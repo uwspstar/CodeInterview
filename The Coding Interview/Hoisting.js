@@ -19,28 +19,68 @@ then "getTotal = function (){...}
 
 ```
 
-Hoisting - Answer Part 2 Source Code
+Hoisting
 // tab 1
-
-
  
-function getTotal() {
-  console.log(multiplier);
-  console.log(total);
-  
-  let total = 0;
-  
-  for(var i = 0; i < 10; i++) {
-    
-    let valueToAdd = i;
-    var multiplier = 2;
-    total += valueToAdd * multiplier;
-  }
-  
-  return total;
+console.log(color);  // Undefined
+ 
+var color = "blue";
+ 
+console.log(color); // blue
+ 
+ 
+ 
+//tab 2 .( reason)
+ 
+var color;
+ 
+console.log(color);
+ 
+color = "blue";
+ 
+console.log(color);
+ 
+ 
+ 
+// tab 3 function expression hoisting
+ 
+console.log(getProduct(2, 3)); // Undefined
+ 
+var getProduct = function(num1, num2) {
+  return num1 * num2;
+};
+ 
+console.log(getProduct(2, 3)); 
+ 
+ 
+ 
+// tab 4 function declaration hoisting to top as whole
+ 
+console.log(getProduct(2, 3));
+ 
+function getProduct(num1, num2) {
+  return num1 * num2;
 }
  
-getTotal();
+ 
+ 
+// tab 5 hoisting inside (...)();
+ 
+var globalVar = 'global';
+ 
+(function() {
+  
+  var name = 'Jen';
+  
+  var getAge = function() {
+    return '30';
+  };
+  
+  function getState() {
+    return 'Delaware'; 
+  }
+  
+})();
 
 
 
