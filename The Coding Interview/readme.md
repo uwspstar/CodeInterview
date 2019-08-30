@@ -18,6 +18,7 @@ not be accessed until they are actually declared.
 ### Scope and "self"
 ### Equals vs Strict Equals
 ### "call" and "apply" Methods
+### Curry Function
 
 # The Coding Interview
 ### Big O
