@@ -18,7 +18,12 @@ will do " var getTotal;"  on the top
 then "getTotal = function (){...}
 
 ```
-
+```
+to be aware of is that although variables declared with the VAR keyword 
+are initialized to undefined 
+keywords with let or const are not initialized until their actual declaration so they can
+not be accessed until they are actually declared.
+```
 Hoisting
 // tab 1
  
@@ -94,4 +99,17 @@ differently for a function declaration. the whole function including its definit
 Using function declarations instead of function expressions can be very useful in your coding because
 with a function declaration the whole function is hoisted to the top of the file or to the top of the
 scope.
+*/
+
+/*
+Var is function scope not block scope
+
+In reality this is only true when we are using the VAR keyword to declare a variable because the VAR
+keyword is function scoped.
+
+If however we use the const or let keywords to declare a variable there is another scope that we must
+be aware of.
+
+Constant Let are still both aware of the global scope and function scope.
+but constant let variables are also aware of another scope to call the block scope
 */
