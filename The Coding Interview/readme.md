@@ -2,6 +2,8 @@
 
 ### Hoisting in JavaScript
 ```
+variables and functions are hoisted to the top of the scope that they are declared in.
+
 to be aware of is that although variables declared with the VAR keyword 
 are initialized to undefined 
 keywords with let or const are not initialized until their actual declaration so they can
