@@ -1,6 +1,12 @@
 # The JS basic knowledge Interview
 
 ### Hoisting in JavaScript
+```
+to be aware of is that although variables declared with the VAR keyword 
+are initialized to undefined 
+keywords with let or const are not initialized until their actual declaration so they can
+not be accessed until they are actually declared.
+```
 ### IIFEs
 ### Closures
 ### "this" Keyword
