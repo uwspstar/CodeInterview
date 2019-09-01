@@ -1,6 +1,13 @@
-Singly or Doubly Invoked Function 
-getAll(5, 40)
-getAll(3)(30)
+
+// Singly or Doubly Invoked Function 
+
+give getAll() {
+  // no params pass in , to return call with arguments
+}
+
+
+// getAll(5, 40)
+// getAll(3)(30)
 
 
 const getAll = function() {
