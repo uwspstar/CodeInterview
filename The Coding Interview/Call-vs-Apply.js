@@ -3,6 +3,9 @@
 // call(obj, param1,param2)
 // apply(obj, [param1,param2] )
 // arrow function cannot use call, and apply
+// Lambda functions (arrow functions) doesn't create new functional context
+// and use context of a calling function.
+// So "this" refers to a parent context.
 
 const car = {
   engin:"v8",
@@ -25,6 +28,13 @@ car.getCarDescription.call(myCar, 1998, "red")
 car.getCarDes2.call(myCar, 1998, "red")
 car.getCarDescription.apply(myCar, [1996, "blue"])
 car.getCarDes2.apply(myCar, [1996, "blue"])
+
+/*
+engin v6 color red build on 1998 
+engin undefined color red build on 1998 
+engin v6 color blue build on 1996 
+engin undefined color blue build on 1996
+*/
 
 const car1 = {
   brand: 'Porsche',
