@@ -1,4 +1,6 @@
 "call" and "apply" Methods - Solution 
+https://www.w3schools.com/js/js_function_call.asp
+
 // change the content "this"
 // call(obj, param1,param2)
 // apply(obj, [param1,param2] )
