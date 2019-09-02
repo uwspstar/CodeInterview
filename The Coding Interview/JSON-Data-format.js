@@ -10,7 +10,7 @@ JSON Data
 const myJsonObj = {
   myString: [some string],
   myNumber: [some number],
-  myNull: [null],
+  myNull: [null],  // good
   myBoolean: [false],
   myUndefined: [undefined],     // **** cannot be *****
   myArray: [some array],
