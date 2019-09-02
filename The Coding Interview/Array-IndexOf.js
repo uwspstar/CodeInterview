@@ -1,5 +1,5 @@
 // Array IndexOf - Question Source Code
-// two objects are never same in js
+// two objects are never same in js, but if the two objs point same address, there are same
 
 
 const myArray = [5];
