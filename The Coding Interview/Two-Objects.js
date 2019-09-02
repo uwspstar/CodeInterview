@@ -15,6 +15,8 @@ console.log(user1 == user2); //false
 console.log(user1 === user2); //false
 console.log(JSON.stringify(user1) === JSON.stringify(user2)); //true
 
+console.log([] == []); //false
+console.log(JSON.stringify([]) === JSON.stringify([])); //true
 /*
 
 When we assign this object to the variable user one and we assign this object to the variable user to
