@@ -38,7 +38,13 @@ could help you store all the data you need for your application to work offline.
 https://softwareengineering.stackexchange.com/questions/219953/how-is-localstorage-different-from-indexeddb
 ```
 ### Hoisting in JavaScript
-```
+``` 
+keyword *** var ***  function ***
+*** the first words has to be "var", or "function", not "("
+the variables or function declarations to the top of their respective environments 
+during compilation phase.
+
+Variables are partially hoisted and function declarations are hoisted.
 variables and functions are hoisted to the top of the scope that they are declared in.
 
 to be aware of is that although variables 
