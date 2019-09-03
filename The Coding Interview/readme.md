@@ -1,6 +1,10 @@
 # The JS basic knowledge Interview
 ### basic
 - global execution context
+- Lexical Environment (scope, where you write something)
+```
+*** eveytime, we create a function, we create a new env, new obj, new scropt
+```
 - Stack Overflow ( Maxinum call stack size exceed)
 - Memory heap
 ```
