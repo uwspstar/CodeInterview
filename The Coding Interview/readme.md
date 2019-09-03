@@ -1,5 +1,37 @@
 # The JS basic knowledge Interview
+### basic
+- Stack Overflow ( Maxinum call stack size exceed)
+- Memory heap
+```
+ - global variable
+ - event listener ( keep add addEventListener but not removeEventListener
+ - setInterval
+```
+- Event Listener
+```
+  window.addEventListener("test", options, options);
+  window.removeEventListener("test", options, options);
+```
+- Memory Leaks (
+- Garbage Collection ( Mark & Sweep JS auto clean up the memory)
+- single thread
 
+### javascript runtime
+- Call Stack + Memory Heap
+- Event loop ( wait for callstack is empty)
+- Web API ( DOM, Fetch, setIntervale, etc...)
+- Callback Queue ( Web API finsihed, put in the Callback Queue, wait for Event loop send back to Call Stack)
+
+### Stroage
+- LocalStroage (web storage) vs IndexDB (good for offline data)
+```
+A good use case for Web Storage would be to store simple session data, 
+for example a user's name, and save you some requests to your actual database. 
+indexedDB's additional features, on the other hand, 
+could help you store all the data you need for your application to work offline.
+
+https://softwareengineering.stackexchange.com/questions/219953/how-is-localstorage-different-from-indexeddb
+```
 ### Hoisting in JavaScript
 ```
 variables and functions are hoisted to the top of the scope that they are declared in.
