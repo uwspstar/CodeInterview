@@ -1,7 +1,7 @@
 
 // Singly or Doubly Invoked Function 
-
-give getAll() {
+// give 
+getAll() {
   // no params pass in , to return call with arguments
 }
 
@@ -11,7 +11,9 @@ give getAll() {
 
 
 const getAll = function() {
+  
   var args = Array.prototype.slice.call(arguments);
+  
   if ( args.length === 2) {
       return args[0] + args[1]
   } 
@@ -25,6 +27,7 @@ const getAll = function() {
 
 //getAll(5, 40)
 //getAll(3)(30)
+
 console.log(getAll(5, 40));
 console.log(getAll(3)(30));
 
