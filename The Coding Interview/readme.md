@@ -39,6 +39,7 @@ https://softwareengineering.stackexchange.com/questions/219953/how-is-localstora
 ```
 ### Hoisting in JavaScript
 ``` 
+scan whole code, and Hoisting / allocated memery for var, and function before excute
 keyword *** var ***  function ***
 *** the first words has to be "var", or "function", not "("
 the variables or function declarations to the top of their respective environments 
