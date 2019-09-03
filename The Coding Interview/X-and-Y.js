@@ -1,4 +1,4 @@
-//X and Y - Solution Source Code
+// X and Y - Solution Source Code
 // all variable and all function are hoisting in JS
 
 var x = 10;
@@ -15,12 +15,11 @@ console.log(x);
 
 /* *** hoisting ****
 
-
+x = 100;
 var x = 10;
  
 function y() {
-    function x() {}
-    x = 100;
+    function x() {} 
     return;
     // function x() {}
 }
