@@ -1,5 +1,6 @@
 # The JS basic knowledge Interview
 ### basic
+- global execution context
 - Stack Overflow ( Maxinum call stack size exceed)
 - Memory heap
 ```
