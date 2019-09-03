@@ -1,7 +1,7 @@
 # The JS basic knowledge Interview
 ### basic
 - global execution context
-- Lexical Environment (scope, where you write something)
+- Lexical Environment (scope, Lexical scope, where you write something)
 ```
 *** eveytime, we create a function, we create a new env, new obj, new scropt
 ```
