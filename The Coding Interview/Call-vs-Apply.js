@@ -27,7 +27,7 @@ const myCar = {
 }
 
 car.getCarDescription.call(myCar, 1998, "red")
-car.getCarDes2.call(myCar, 1998, "red")
+car.getCarDes2.call(myCar, 1998, "red") // arrow function cannot use call, and apply
 car.getCarDescription.apply(myCar, [1996, "blue"])
 car.getCarDes2.apply(myCar, [1996, "blue"])
 
