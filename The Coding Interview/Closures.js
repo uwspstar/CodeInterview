@@ -1,6 +1,7 @@
 //Closures - Solution Source Code
 
 //What is closures : 
+/*
 - a closure is an inner function that has access to the scope of an enclosing function
 
 - a closure has access to variables in 3 separate scopes:
@@ -10,6 +11,7 @@
 - The closure also has access to:
   - 1. Its own parameters
   - 2. Parameters of outer functions(s)
+*/
 
 const globalVariable = 'global var';
  
@@ -30,3 +32,11 @@ function outterFunc(param1) {
 }
  
 outterFunc('param two');
+
+/*
+globalVariable:  global var
+variable1:  var one
+variable2:  var two
+param1:  param two
+param2:  param one
+*/
