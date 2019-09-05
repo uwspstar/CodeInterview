@@ -1,4 +1,5 @@
-Bind Method - Solution Source Code
+//Bind Method - Solution Source Code
+// the bind method will change the "this"
 
 this.distance = 10000;
 
