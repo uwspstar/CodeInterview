@@ -16,3 +16,9 @@ arr2:  [ <50 empty items> ]
 arr3:  [ 1, 2, 'three', 4, 'five' ]
 arr4:  [ [ 1, 2, 3, 4, 5 ] ]
 */
+
+
+let result2DArray = [];
+for(let i = 0; i < 4; i++) {
+  result2DArray.push([]
+}
