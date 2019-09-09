@@ -40,7 +40,15 @@ nor include them in type annotations.
 ### Style Checking 
 (https://jshint.com/)
 
-## mutate
+### undefined vs null
+```
+undefined means a variable has been declared but has not yet been assigned a value. 
+On the other hand, null is an assignment value. 
+It can be assigned to a variable as a representation of no value. 
+Also, undefined and null are two distinct types: 
+undefined is a type itself (undefined) while null is an object.
+```
+### mutate
 ```
 - For arrays, use methods like slice, the spread operator, 
 and concat that make copies of arrays so you do not mutate them
