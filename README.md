@@ -40,6 +40,11 @@ nor include them in type annotations.
 ### Style Checking 
 (https://jshint.com/)
 
+### function return a new Arry
+- filter 
+```
+const newArr =  arr.filter(x=> return x > 1);  // 1)use return 2) a new arr
+```
 ### undefined vs null
 ```
 undefined means a variable has been declared but has not yet been assigned a value. 
