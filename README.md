@@ -40,6 +40,8 @@ nor include them in type annotations.
 ### Style Checking 
 (https://jshint.com/)
 
+### slice vs splice
+
 ### function return a new Arry
 - filter 
 ```
