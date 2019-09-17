@@ -70,6 +70,16 @@ function numberCompare(num1, num2) {
 
 [ 6, 4, 15, 10 ].sort(numberCompare);
 // [ 4, 6, 10, 15 ]
+
+
+function compareByLen(str1, str2) {
+  return str1.length - str2.length;
+}
+
+[ "Steele", "Colt", "Data Structures", "Algorithms" ]
+  .sort(compareByLen);
+// [ "Colt", "Steele", "Algorithms", "Data Structures" ]
+
 ```
 ### Event loop
 - What the heck is the event loop anyway? (https://www.youtube.com/watch?v=8aGhZQkoFbQ)  | Philip Roberts | JSConf EU
