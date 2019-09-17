@@ -62,6 +62,20 @@ and concat that make copies of arrays so you do not mutate them
 - Remember that strings are immutable so you will need to use methods like slice, substr, 
 or substring to make copies of strings
 ```
+### swap
+```
+// ES5
+function swap(arr, idx1, idx2) {
+  var temp = arr[idx1];
+  arr[idx1] = arr[idx2];
+  arr[idx2] = temp;
+}
+
+// ES2015
+const swap = (arr, idx1, idx2) => {
+  [arr[idx1],arr[idx2]] = [arr[idx2],arr[idx1]];
+}
+```
 ### sort
 ```
 function numberCompare(num1, num2) {
