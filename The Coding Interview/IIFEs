@@ -1,6 +1,7 @@
 // Working With IIFEs - Solution Source Code
 # IIFEs
 //()();
+//(function (){})();
 
 // avoid distory the globe variable
 
