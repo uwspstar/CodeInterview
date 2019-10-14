@@ -1,4 +1,5 @@
 //this is refer the context in the owner
+// In general the this keyword refers to the object that it is in the context of
 ```
 It has different values depending on where it is used:
 
