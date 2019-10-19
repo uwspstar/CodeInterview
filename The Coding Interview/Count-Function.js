@@ -1,4 +1,5 @@
 // also look at Curry function
+// deep understand of js Closures
 
 function myFunc() {
   let count = 0;
