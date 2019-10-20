@@ -1,4 +1,4 @@
-Logging X and Y - Solution Source Code
+//Logging X and Y - Solution Source Code
 ‘use strict’;
  
 (function() {
@@ -9,13 +9,13 @@ console.log('y: ', y);  // 200
 console.log('x: ', x);  // cannot access
 
 
-//reason
+//reason IIFE run, the x inside function is inside function scope
 
 ‘use strict’;
  
 (function() {
   var x;
-  y = 200; //globle
+  y = 200; //globle ( from right to left in order assign value)
   x = y;   // insie function
 })();
  
