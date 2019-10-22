@@ -1,11 +1,11 @@
-"call" and "apply" Methods - Solution 
-https://www.w3schools.com/js/js_function_call.asp
+// "call" and "apply" Methods - Solution 
+// https://www.w3schools.com/js/js_function_call.asp
 
 // change the content "this"
 // call(obj, param1,param2)
 // apply(obj, [param1,param2] )
-// arrow function cannot use call, and apply
-// Lambda functions (arrow functions) doesn't create new functional context
+// *** arrow function cannot use call, and apply
+// *** Lambda functions (arrow functions) doesn't create new functional context
 // and use context of a calling function.
 // So "this" refers to a parent context.
 
