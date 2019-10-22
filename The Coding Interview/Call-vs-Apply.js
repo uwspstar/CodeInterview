@@ -1,5 +1,6 @@
 // "call" and "apply" Methods - Solution 
 // https://www.w3schools.com/js/js_function_call.asp
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 // *** change the content "this" which normal function cannot do
 // call(obj, param1,param2)
