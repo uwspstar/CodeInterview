@@ -57,4 +57,14 @@ Arrow functions do not have a prototype property.
 var Foo = () => {};
 console.log(Foo.prototype); // undefined
 
+
+let callback;
+
+callback = callback || function() {}; // ok
+
+callback = callback || () => {};
+// SyntaxError: invalid arrow-function arguments
+
+callback = callback || (() => {});    // ok
+
 */
