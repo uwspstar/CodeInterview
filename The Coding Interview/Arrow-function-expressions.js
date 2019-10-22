@@ -43,4 +43,18 @@ f(); // 6
 elements.map(element => element.length); // [8, 6, 7, 9]
 elements.map(({ length :lengthFooBArX }) => lengthFooBArX); // [8, 6, 7, 9]
 
+
+
+*** Use of the new operator
+Arrow functions cannot be used as constructors and will throw an error when used with new.
+
+var Foo = () => {};
+var foo = new Foo(); // TypeError: Foo is not a constructor
+
+*** Use of prototype property
+Arrow functions do not have a prototype property.
+
+var Foo = () => {};
+console.log(Foo.prototype); // undefined
+
 */
