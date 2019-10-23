@@ -1,13 +1,13 @@
-Log Number Function
+// Log Number Function
 
 var num = 50;
- 
+
 function logNumber() {
     console.log(num); 
     var num = 100;
 }
  
-logNumber();
+logNumber(); //Undefined
 
 //reason : var hoisting
 
@@ -19,4 +19,4 @@ function logNumber() {
     num = 100;
 }
  
-logNumber();
+logNumber(); 
