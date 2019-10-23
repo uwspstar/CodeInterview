@@ -1,3 +1,4 @@
+// Node
 class Node {
   constructor(data, next = null) {
     this.data = data;
@@ -5,6 +6,7 @@ class Node {
   }
 }
 
+// LinkedList
 class LinkedList {
   constructor(values = []) {
     this.head = null;
