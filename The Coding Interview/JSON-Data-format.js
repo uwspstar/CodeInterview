@@ -1,12 +1,14 @@
-JSON Data
+// JSON Data
 // TASK:
 // 1. Describe what JSON format is.
 // 2. Delete the data types not permitted in JSON.
 // 3. Replace placeholder-text with the corresponding data type,
 //    properly formatted as JSON.
 
-*** JSON only for data, not program language, not for function, not for the undefined
-  
+// *** JSON only for data, not program language, not for function, not for the undefined
+
+// undefined & function
+
 const myJsonObj = {
   myString: [some string],
   myNumber: [some number],
