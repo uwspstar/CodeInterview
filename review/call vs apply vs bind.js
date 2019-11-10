@@ -13,7 +13,8 @@ const archer = {
 
 wizard.heal.call(archer, 50, 60)
 wizard.heal.apply(archer, [20, 30])
-archer
+ 
+
 // function borrowing
 
 const healArcher = wizard.heal.bind(archer, 50, 60);
