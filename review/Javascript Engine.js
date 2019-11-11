@@ -2,4 +2,6 @@
 
 // there aer more Javascript Engine
 
-Interpreters and Compilers
+// Interpreters and Compilers
+
+// 2 ways to convert js code to machine code
