@@ -3,6 +3,6 @@
 Optimized Code
 
 - inline caching
-- hidden classes
+- hidden classes (try to use constructor)
 
 */
