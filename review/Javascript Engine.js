@@ -10,3 +10,10 @@
 // Compilers the code to machine understand code before run
 
 // JIT Compilers (browser use it)
+
+/*
+
+high level language --> bytecode --> machine code
+
+
+*/
