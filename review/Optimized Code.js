@@ -1,0 +1,8 @@
+/*
+
+Optimized Code
+
+- inline caching
+- 
+
+*/
