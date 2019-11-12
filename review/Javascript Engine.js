@@ -13,7 +13,7 @@
 
 /*
 
-high level language --> bytecode --> machine code
+high level language (javascript) --> Bytecode (V8 bytecode) -> machine code
 
 
 */
