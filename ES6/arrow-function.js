@@ -10,7 +10,6 @@ const profile = {
 
 console.log(profile.getName());
 
-
 const profile = {
     name: 'Alex',
     getName : function() {
