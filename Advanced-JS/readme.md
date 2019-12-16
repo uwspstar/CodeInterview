@@ -17,4 +17,5 @@ setTimeout(removeItemsFromList, 0); // move to API JS runtime, event loop handle
 - execution context is going to tell me which lexical environment which planet is currently running
 ### Hoisting
 - only work with ```var``` and ```function``` key words
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772862#overview
 
