@@ -10,4 +10,11 @@ setTimeout(removeItemsFromList, 0); // move to API JS runtime, event loop handle
 ### Node.js 
 - a javascript runtime build on v8 engine
 
+### Execution Context
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772854#overview
+- ```global object``` & ```this```
+### Lexical Environment
+- execution context is going to tell me which lexical environment which planet is currently running
+### Hoisting
+- only work with ```var``` and ```function``` key words
 
