@@ -22,7 +22,8 @@ setTimeout(removeItemsFromList, 0); // move to API JS runtime, event loop handle
 ### Function Invocation
 - Function Expression
 ```
-const fn = function () {...}
+const fn = function () { ... }
+const fn = () => { ... }
 ```
 - Function Declaration
 ```
