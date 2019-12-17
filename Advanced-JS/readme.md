@@ -19,3 +19,12 @@ setTimeout(removeItemsFromList, 0); // move to API JS runtime, event loop handle
 - only work with ```var``` and ```function``` key words
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772862#overview
 
+### Function Invocation
+- Function Expression
+```
+const fn = function () {...}
+```
+- Function Declaration
+```
+function fn () { ... }
+```
