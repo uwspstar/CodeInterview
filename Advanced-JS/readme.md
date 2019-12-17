@@ -29,3 +29,5 @@ const fn = () => { ... }
 ```
 function fn () { ... }
 ```
+### arguments Keyword
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772874#overview
