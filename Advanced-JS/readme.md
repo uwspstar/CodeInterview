@@ -48,3 +48,4 @@ var isValid = false; // 1. Global variable is created as undefined. Then during 
 one() // 2. New execution context is created on top of the stack.
 
 ```
+### Scope Chain
