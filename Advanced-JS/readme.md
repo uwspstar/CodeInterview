@@ -83,3 +83,5 @@ function loop2() {
   console.log(i)
 }
 ```
+### IIFE
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772914#overview
