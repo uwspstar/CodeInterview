@@ -62,4 +62,6 @@ function weird() {
 var heyhey = function doodle() {
   // code here
 }
+heyhey();
+doodle(); // Error! because it is enclosed in its own scope.
 ```
