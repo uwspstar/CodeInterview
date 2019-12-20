@@ -49,3 +49,17 @@ one() // 2. New execution context is created on top of the stack.
 
 ```
 ### Scope Chain
+### Exercise: JS is Weird
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13772898#overview
+```
+// Weird Javascript #1 - it asks global scope for height. 
+// Global scope says: ummm... no but here I just created it for you.
+// ps this isn't allowed in strict mode. We call this leakage of global variables.
+function weird() {
+  height = 50
+}
+
+var heyhey = function doodle() {
+  // code here
+}
+```
