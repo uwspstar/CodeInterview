@@ -173,3 +173,4 @@ var d = {
   say() {return () => console.log(this)}
 }
 ```
+
