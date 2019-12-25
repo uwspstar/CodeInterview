@@ -176,3 +176,9 @@ var d = {
 ```
 ### Javascript Types
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+- function is object
+- array is object
+- undefined is default value
+- null is NO value
+- Primitive vs Non-Primitive ({}, function(){}, [])
+### Array.isArray([1,2,3]) // true
