@@ -174,4 +174,5 @@ var d = {
   say() {return () => console.log(this)}
 }
 ```
-
+### Javascript Types
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
