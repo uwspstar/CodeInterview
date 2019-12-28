@@ -7,6 +7,7 @@
 ### An Advanced Look at Functions (***)
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010172#overview
 ### all about function
+- store functions in an array
 - Loop over all the functions in operations
 ```
 function add(x, y) {
