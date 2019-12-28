@@ -13,7 +13,7 @@
 - inside function
 - in for loop
 ### Google JavaScript Style Guide
-(https://google.github.io/styleguide/jsguide.html)
+- https://google.github.io/styleguide/jsguide.html
 
 - 5.1.1 Use const and let
 ```
