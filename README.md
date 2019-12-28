@@ -4,8 +4,11 @@
 ###  Javascript Runtime (call stack, memory heap, Web API, event loop, callback queue, etc.)
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13760086#overview
 
-### An Advanced Look at Functions
+### An Advanced Look at Functions (***)
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010172#overview
+### function declaration vs function expression vs anomous function
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+- https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010184#overview
 ### var vs let
 - inside function
 - in for loop
