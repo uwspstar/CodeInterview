@@ -6,6 +6,9 @@
 
 ### An Advanced Look at Functions
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010172#overview
+### var vs let
+- inside function
+- in for loop
 ### Google JavaScript Style Guide
 (https://google.github.io/styleguide/jsguide.html)
 
