@@ -92,6 +92,8 @@ thing.doSomething(4, 5) //20
 ### var vs let
 - inside function
 - in for loop
+###  Hoisting
+
 ### Google JavaScript Style Guide
 - https://google.github.io/styleguide/jsguide.html
 
