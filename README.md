@@ -4,8 +4,9 @@
 ###  Javascript Runtime (call stack, memory heap, Web API, event loop, callback queue, etc.)
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13760086#overview
 
-### An Advanced Look at Functions (***)
+### An Advanced Look at Functions
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010172#overview
+###  Higher Order Functions
 ### all about function
 - ```store functions in an array```
 - Loop over all the functions in operations
