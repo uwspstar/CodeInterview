@@ -93,6 +93,7 @@ thing.doSomething(4, 5) //20
 - inside function
 - in for loop
 ###  Hoisting
+- only for the keyword ```var``` and ```function```
 
 ### Google JavaScript Style Guide
 - https://google.github.io/styleguide/jsguide.html
