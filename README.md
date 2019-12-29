@@ -94,6 +94,7 @@ thing.doSomething(4, 5) //20
 - in for loop
 ###  Hoisting
 - only for the keyword ```var``` and ```function```
+- ```NOT``` for ```function expression```
 
 ### Google JavaScript Style Guide
 - https://google.github.io/styleguide/jsguide.html
