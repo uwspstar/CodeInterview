@@ -7,6 +7,8 @@
 ### An Advanced Look at Functions
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010172#overview
 ###  Higher Order Functions
+- Functions as Arguments
+- Functions as Return Values
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010194#overview
 ### all about function
 - ```store functions in an array```
