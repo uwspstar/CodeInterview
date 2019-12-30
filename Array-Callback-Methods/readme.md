@@ -1,11 +1,6 @@
 # Array Callback Methods
 - https://www.udemy.com/course/javascript-beginners-complete-tutorial/learn/lecture/17010222#overview
 
-
-### filter
-```
-
-```
 ### find
 ```
 let movies = [
