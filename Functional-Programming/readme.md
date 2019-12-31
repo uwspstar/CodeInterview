@@ -3,3 +3,7 @@
 
 ### Pure Functions
 - cannot be 100% pure
+###  Idempotent
+```
+Math.abs(Math.abs(10))
+```
