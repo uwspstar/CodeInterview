@@ -69,7 +69,7 @@ function sing(person) {
 
 letPerson({level: 'user', name: 'Tim'}, sing)
 ```
-### Closures
+### Closures and Memory
 ```
 function a() {
   let grandpa = 'grandpa'
