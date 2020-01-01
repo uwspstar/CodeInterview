@@ -69,3 +69,4 @@ function sing(person) {
 
 letPerson({level: 'user', name: 'Tim'}, sing)
 ```
+### Closures
