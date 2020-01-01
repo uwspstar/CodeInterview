@@ -13,6 +13,7 @@ Math.abs(Math.abs(10))
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13829074#overview
 
 ### Higher Order Functions and Closures
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13781272#overview
 ```
 //HOF
 const hof = (fn) => fn(5);
