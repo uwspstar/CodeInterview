@@ -242,3 +242,8 @@ for(var i=0; i < array.length; i++) {
   })(i)
 }
 ```
+### Prototypal Inheritance
+- Array and Function are part of object
+```
+
+```
