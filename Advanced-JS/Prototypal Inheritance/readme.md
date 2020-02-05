@@ -5,7 +5,7 @@
 - Don't do ```__proto__```, ```bad performance```. Show with bind.
  
 ```
-et dragon = {
+let dragon = {
   name: 'Tanya',
   fire: true,
   fight() {
