@@ -1,4 +1,5 @@
 # Prototypal Inheritance
+-  C# or Java use something called ```classical inheritance```. Javascript uses ```prototype``` all inheritance.
 - array object: everything is an object in the array object gets access to the properties and methods of the object in JavaScript.
 - functions object: through this chain that we call prototype all inheritance functions get access to the methods and properties of objects.
 ```
