@@ -23,7 +23,7 @@ let lizard = {
   }
 }
 // Don't do this, bad performance. Show with bind.
-lizard.__proto__ = dragon;
+lizard.__proto__ = dragon; // inheritance
 dragon.isPrototypeOf(lizard);
 console.log(lizard.fire)
 console.log(lizard.sing())
