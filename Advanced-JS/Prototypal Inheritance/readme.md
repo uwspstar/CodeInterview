@@ -48,3 +48,4 @@ multiplyBy5.__proto__.__proto__.__proto__
 typeof Object
 typeof {}
 ```
+- ```__proto__``` links to ```prototype``` I know very
