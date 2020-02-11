@@ -48,4 +48,13 @@ multiplyBy5.__proto__.__proto__.__proto__
 typeof Object
 typeof {}
 ```
-- ```__proto__``` links to ```prototype``` I know very
+- ```__proto__``` (pointer) links to ```prototype``` object
+- ``__proto__``` lives inside ```prototype``` object, only ```functions```` have the prototype property
+```
+// Create our own prototypes:
+var human = {mortal: true}
+var socrates = Object.create(human);
+human.isPrototypeOf(socrates); // true
+```
+- typeof Object // function , Object is construct function to create a new object
+- type of {} // object
