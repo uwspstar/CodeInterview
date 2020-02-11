@@ -2,7 +2,7 @@
 
 - typeof Object // function , Object is construct function to create a new object
 - type of {} // object
-
+- type of Object.prototype  // object
 ### Javascript Runtime
 https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13760086#overview
 
