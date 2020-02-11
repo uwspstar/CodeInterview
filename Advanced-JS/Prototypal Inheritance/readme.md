@@ -58,3 +58,4 @@ human.isPrototypeOf(socrates); // true
 ```
 - typeof Object // function , Object is construct function to create a new object
 - type of {} // object
+- type of Object.prototype  // object
