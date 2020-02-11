@@ -78,3 +78,13 @@ Date.prototype.lastYear = function(){
 new Date('1900-10-10').lastYear()
 // don't worry if you didn't get this... we will expand on this later.
 ```
+```
+// How would you be able to create your own .bind() method using call or apply.
+
+Function.prototype.bind = function(whoIsCallingMe){
+  const self = this;
+  return function(){
+    return self.apply(whoIsCallingMe, arguments);
+  };
+}
+```
