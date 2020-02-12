@@ -1,6 +1,6 @@
 # Object Oriented Programming
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821828#overview
-### Factory Functions
+### Factory Functions : the function create obj for us
 ```
 // factory function make/create
 function createElf(name, weapon) {
