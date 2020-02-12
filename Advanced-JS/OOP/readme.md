@@ -22,7 +22,7 @@ sam.atack()
 ```
 const elfFunctions = {
   attack: function() {
-    return 'atack with ' + this.weapon
+    return 'atack with ' + this.weapon  // not weapon only, need to use this.weapon
   }
 }
 function createElf(name, weapon) {
@@ -36,5 +36,20 @@ function createElf(name, weapon) {
 
 const sam = createElf('Sam', 'bow');
 const peter = createElf('Peter', 'bow');
+sam.attack()
+```
+### Constructor Functions : need to use 'new' keyword
+```
+//Constructor Functions
+function Elf(name, weapon) {
+  this.name = name;
+  this.weapon = weapon;
+}
+
+Elf.prototype.attack = function() { 
+  return 'atack with ' + this.weapon
+}
+const sam = new Elf('Sam', 'bow');
+const peter = new Elf('Peter', 'bow');
 sam.attack()
 ```
