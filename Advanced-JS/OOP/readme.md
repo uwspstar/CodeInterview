@@ -39,6 +39,7 @@ const peter = createElf('Peter', 'bow');
 sam.attack()
 ```
 ### Constructor Functions : need to use 'new' keyword
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821850#overview
 ```
 //Constructor Functions
 function Elf(name, weapon) {
