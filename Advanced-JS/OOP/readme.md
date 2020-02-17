@@ -1,6 +1,6 @@
 # Object Oriented Programming
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821828#overview
-### Factory Functions : the function create obj for us
+### Factory Functions : the function create obj for us, only functions have prototype
 ```
 // factory function make/create
 function createElf(name, weapon) {
@@ -40,6 +40,20 @@ sam.attack()
 ```
 ### Constructor Functions : need to use 'new' keyword
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821850#overview
+```
+//Constructor Functions
+function Elf(name, weapon) {
+  this.name = name;
+  this.weapon = weapon;
+}
+
+Elf.prototype.attack = function() { 
+  return 'atack with ' + this.weapon
+}
+const sam = new Elf('Sam', 'bow');
+const peter = new Elf('Peter', 'bow');
+sam.attack()
+```
 ```
 //Constructor Functions
 function Elf(name, weapon) {
