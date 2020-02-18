@@ -68,3 +68,4 @@ const sam = new Elf('Sam', 'bow');
 const peter = new Elf('Peter', 'bow');
 sam.attack()
 ```
+### ES6 Classes
