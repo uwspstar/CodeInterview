@@ -133,6 +133,7 @@ const person4 = {
 person4.hi()
 ```
 ### Inheritance : clone object , loose the __proto__ chain
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821878#overview
 ```
 class Character {
   constructor(name, weapon) {
