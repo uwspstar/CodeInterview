@@ -38,7 +38,7 @@ const sam = createElf('Sam', 'bow');
 const peter = createElf('Peter', 'bow');
 sam.attack()
 ```
-### Constructor Functions : need to use 'new' keyword
+### Constructor Functions : need to use 'new' keyword 
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821850#overview
 ```
 //Constructor Functions
@@ -132,7 +132,7 @@ const person4 = {
 
 person4.hi()
 ```
-### Inheritance : clone object , loose the __proto__ chain
+### Inheritance : clone object , loose the __proto__ chain, , ```extends``` is not copy, just link the prototype chain
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13821878#overview
 ```
 class Character {
