@@ -132,3 +132,6 @@ const person4 = {
 
 person4.hi()
 ```
+### Inheritance : clone object , loose the __proto__ chain
+```
+```
