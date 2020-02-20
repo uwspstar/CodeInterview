@@ -1,5 +1,6 @@
 # Functional Programming
 ### Pure Functions
+- https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13828374#overview
 ```
 //Side effects:
 const array = [1,2,3];
