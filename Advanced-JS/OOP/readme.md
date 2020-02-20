@@ -169,3 +169,5 @@ const houseElf = new Elf('Dolby', 'cloth', 'house')
 const shrek = new Ogre('Shrek', 'club', 'green')
 shrek.makeFort()
 ```
+### Public vs Private ( still working)
+### 4 Pillars of OOP
