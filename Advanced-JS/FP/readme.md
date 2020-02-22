@@ -31,3 +31,4 @@ function good() {
 
 Math.abs(Math.abs(10))
 ```
+### Imperative vs Declarative
