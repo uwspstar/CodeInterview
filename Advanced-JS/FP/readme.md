@@ -35,6 +35,7 @@ Math.abs(Math.abs(10))
 - tell what need to do, not how to do it
 ### Immutability
 - https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2
+- https://vimeo.com/showcase/3953264/video/166790294
 - React elements are immutable.
 ```
 const obj = {name: 'Andrei'}
