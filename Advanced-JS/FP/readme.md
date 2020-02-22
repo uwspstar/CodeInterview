@@ -34,6 +34,7 @@ Math.abs(Math.abs(10))
 ### Imperative vs Declarative
 - tell what need to do, not how to do it
 ### Immutability
+- https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2
 ```
 const obj = {name: 'Andrei'}
 function clone(obj) {
