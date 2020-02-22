@@ -32,3 +32,4 @@ function good() {
 Math.abs(Math.abs(10))
 ```
 ### Imperative vs Declarative
+- tell what need to do, not how to do it
