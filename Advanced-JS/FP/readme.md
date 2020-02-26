@@ -136,7 +136,7 @@ console.log(1, memoized(6))
 // console.log('-----------')
 console.log(2, memoized(6))
 ```
-### Compose and Pipe
+### Compose and Pipe , Arity
 ```
 fn1(fn2(fn3(50)));
 
