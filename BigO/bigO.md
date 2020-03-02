@@ -1,6 +1,6 @@
 # bigO
 - https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11070006#overview
-- ![BigO](https://github.com/uwspstar/Javascript/blob/master/BigO/bigo2.png)
+![BigO](https://github.com/uwspstar/Javascript/blob/master/BigO/bigo2.png)
 - O(n)
 ```
 function logAtLeast5(n) {
