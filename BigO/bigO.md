@@ -17,3 +17,5 @@ function logAtMost5(n) {
   }
 }
 ```
+# space
+- Most primitives (booleans, numbers, undefined, null) are constant space
