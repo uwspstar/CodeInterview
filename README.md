@@ -1,5 +1,7 @@
 
 # Javascript
+### Data Structures in JavaScript: Arrays, HashMaps, and Lists
+- https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/
 
 ###  Javascript Runtime (call stack, memory heap, Web API, event loop, callback queue, etc.)
 - https://www.udemy.com/course/advanced-javascript-concepts/learn/lecture/13760086#overview
@@ -51,6 +53,11 @@ const isNiceWeather = makeBetweenFunc(60, 79);
 isNiceWeather(68); //true
 isNiceWeather(98); //false
 ```
+### JavaScript specific primitives:
+- undefined
+- Symbol
+- Number
+
 ### all about function
 - ```store functions in an array```
 - Loop over all the functions in operations
