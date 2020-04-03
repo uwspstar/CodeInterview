@@ -58,6 +58,7 @@ isNiceWeather(98); //false
 - Symbol
 - Number
 
+
 ### all about function
 - ```store functions in an array```
 - Loop over all the functions in operations
