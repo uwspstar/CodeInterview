@@ -59,6 +59,13 @@ isNiceWeather(98); //false
 - Number
 
 
+### console.log(4 | 3) //7
+```
+0100
+0011
+-----
+0111 =  1* 2^2 + 1* 2^1 + 1 = 4 + 2 + 1
+```
 ### all about function
 - ```store functions in an array```
 - Loop over all the functions in operations
