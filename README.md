@@ -1,5 +1,9 @@
 
 # Javascript
+
+### A re-introduction to JavaScript (JS tutorial)
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
 ### Data Structures in JavaScript: Arrays, HashMaps, and Lists
 - https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/
 
