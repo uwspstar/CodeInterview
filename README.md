@@ -1,6 +1,6 @@
 
 # Javascript
-
+- in JS: Number.MAX_VALUE is 1.7976931348623157e+308
 
 ### A re-introduction to JavaScript (JS tutorial)
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
