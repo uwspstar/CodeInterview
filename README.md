@@ -1,5 +1,8 @@
 
 # Javascript
+### ECMAScript® 2021 Language Specification
+- https://tc39.es/ecma262/
+
 - in JS: Number.MAX_VALUE is 1.7976931348623157e+308
 
 ### A re-introduction to JavaScript (JS tutorial)
