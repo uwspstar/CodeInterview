@@ -4,6 +4,9 @@
 - https://tc39.es/ecma262/
 
 - in JS: Number.MAX_VALUE is 1.7976931348623157e+308
+### JSON
+- A JSON value can be an object, array, number, string, true, false, or null.
+- https://ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
 
 ### A re-introduction to JavaScript (JS tutorial)
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
