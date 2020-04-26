@@ -4,6 +4,12 @@
 - https://tc39.es/ecma262/
 
 - in JS: Number.MAX_VALUE is 1.7976931348623157e+308
+### toString(2) binary
+-
+
+### JSON.stringify()
+- https://medium.com/javascript-in-plain-english/5-secret-features-of-json-stringify-c699340f9f27
+
 ### JSON
 - A JSON value can be an object, array, number, string, true, false, or null.
 - https://ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
