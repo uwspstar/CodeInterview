@@ -4,6 +4,10 @@
 - https://tc39.es/ecma262/
 
 - in JS: Number.MAX_VALUE is 1.7976931348623157e+308
+
+### bitwise
+- https://www.youtube.com/watch?v=x7guiscwu0U
+
 ### toString(2) binary
 -
 
