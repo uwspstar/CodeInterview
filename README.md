@@ -9,7 +9,6 @@
 - https://www.youtube.com/watch?v=x7guiscwu0U
 
 ### toString(2) binary
--
 
 ### JSON.stringify()
 - https://medium.com/javascript-in-plain-english/5-secret-features-of-json-stringify-c699340f9f27
