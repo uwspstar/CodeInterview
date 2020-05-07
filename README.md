@@ -513,3 +513,4 @@ console.log(1 < 2 < 2); //true
 console.log(3 > 2 > 1); //false
 ```
 - https://ylv.io/top-ten-tricky-javascript-questions/
+- https://www.freecodecamp.org/learn/
