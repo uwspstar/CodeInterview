@@ -1,5 +1,9 @@
 
 # Javascript
+
+### learn from open source
+- https://underscorejs.org/docs/underscore.html
+
 ### ECMAScript® 2021 Language Specification
 - https://tc39.es/ecma262/
 
