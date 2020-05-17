@@ -1,6 +1,12 @@
 
 # Javascript
 
+### Optimization killers
+- https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments
+
+### Javascript Hidden Classes and Inline Caching in V8
+- https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html
+
 ### learn from open source
 - https://underscorejs.org/docs/underscore.html
 
