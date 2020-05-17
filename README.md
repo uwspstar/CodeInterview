@@ -1,6 +1,16 @@
 
 # Javascript
 
+### Carefull
+- eval()
+- arguments
+- for in
+- with
+- delete
+- hidden class
+- inline caching
+
+
 ### Optimization killers
 - https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments
 
