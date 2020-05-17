@@ -519,3 +519,7 @@ console.log(3 > 2 > 1); //false
 ```
 - https://ylv.io/top-ten-tricky-javascript-questions/
 - https://www.freecodecamp.org/learn/
+### Babel 
+- is a Javascript compiler that takes your modern JS code and returns  browser compatible JS (older JS code).
+### Typescript 
+- is a superset of Javascript that compiles down to Javascript.
