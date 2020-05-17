@@ -1,7 +1,8 @@
 
 # Javascript
-
-### Carefull
+### Bytecode
+- Not as low-level as machine code, but a lower level than JS 
+### Optimization
 - eval()
 - arguments
 - for in
