@@ -2,6 +2,12 @@
 # Javascript
 ### Bytecode
 - Not as low-level as machine code, but a lower level than JS 
+
+### JavaScript Engine vs. Runtime
+- The distinction between the two is not always clear and you'll find that the terms are commonly used interchangeably.
+- Chrome and Node.js share the same engine (Google's V8), but they have different runtime (execution) environments.
+- In a way, the runtime is to the engine what the linker is to the compiler in a traditional compiled language.
+	
 ### Optimization
 - eval()
 - arguments
