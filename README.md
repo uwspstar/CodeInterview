@@ -17,6 +17,8 @@
 - hidden class
 - inline caching
 
+### runtime 
+- https://medium.com/javascript-in-plain-english/you-dont-know-javascript-until-you-can-beat-this-game-aa7fd58befb
 
 ### Optimization killers
 - https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments
