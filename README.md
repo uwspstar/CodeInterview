@@ -1,5 +1,7 @@
 
 # Javascript
+- https://wangdoc.com/javascript/basic/grammar.html
+
 ### Bytecode
 - Not as low-level as machine code, but a lower level than JS 
 
